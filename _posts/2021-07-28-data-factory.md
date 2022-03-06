@@ -7,16 +7,15 @@ category: project-ideas
 ---
 
 Some form of data processing is a common task in almost any computer-related activity.
-For example, a machine learning project may employ a pipeline, a workflow, to extract data, transform data and train a model.
-The final pipeline may be simple.
+For example, a machine learning project may employ a pipeline/workflow, to extract data, transform data and train a model.
+Implementation of the pipeline can be simple in the production environment.
 However, during the development phase, many different pipelines may need to be tested.
 Management and execution of those pipelines can be a tedious task.
 The objective is to make this task easier.
 
 <!-- more -->
 
-
-The idea is to create software, called *Data Factory*, that would allow a user to define and compute so-called *data entries*.
+The idea is to create software (*Data Factory*), that would allow a user to define and compute so-called *data entries*.
 A simple *data entry* can be a local file or remote source of data. 
 In addition, a new data entry can be produced using arbitrary software from existing *data entry*. 
 Each *data entry* has accompanying metadata, called *definition*, that allows reproducible recomputation of a given *data entry*.

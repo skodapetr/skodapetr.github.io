@@ -7,6 +7,8 @@ category: project-ideas
 ---
 
 Similarity search is a simple search method with a wide range of applications in many domains.
+Yet the search results are often visualised just as an isolated ordered lists.
+While this is sufficient for users of the similarity methods, the authors of such method can benefit for additional insight.
 
 <!-- more -->
 

@@ -7,7 +7,7 @@ category: project-ideas
 ---
 
 [Resource Description Framework] (RDF) is a standard data model.
-As RDF becomes more widespread more and more data are available in one of the RDF data formats.
+As RDF becomes widespread more and more data are available in one of the RDF data formats.
 This makes it an interesting data source for developers and data scientists.
 Yet there is no Python library that would allow for processing of larger RDF data files.
 
