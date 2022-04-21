@@ -1,0 +1,154 @@
+---
+layout: default
+language: cs
+title: Implementační závěrečná práce
+---
+
+<!-- more -->
+
+<h1>Implementační práce</h1>
+<p>
+Tento příspěvek se věnuje specifikům implementační práce. 
+Mimo zde uvedené by práce měla splňovat <a href="{% post_url 2022-03-05-závěrečné-práce %}">obecné zásady pro závěrečné práce</a>.
+</p>
+<p>
+  Hlavním výstupem je program (sw.).
+  Důraz je kladen zejména na kvalitu implementace a dokumentace.
+  Textová část implementační práce by měla obsahovat následující části:
+</p>
+
+<h2>Úvod</h2>
+<p>
+  Úvod by měl být čitelný širokou veřejností, neměl by tedy počítat s počáteční znalostí domény problému.
+  Naopak, úvod by měl čtenáře do domény uvést pomocí definice pojmů, vztahů a problémů.
+  Dále by měl popisovat uživatele aplikace, jeho požadavky a benefity jenž mu použití aplikace přinese.
+</p>
+
+<h2>Analýza</h2>
+<p>
+  Tato část by měla obsahovat popis požadavků na sw. ve formě strukturovaných funkčních a nefunkčních požadavků a use-casů.
+  Cílem je specifikovat chování, tedy jak se bude sw. chovat zvenčí.
+  Speciálně se zde neřeší implementace sw. na ten se tedy zatím díváme jako na černou skříňku.
+  U požadavků by mělo být jasné z jakého jsou zdroje.
+  Analýzu je vhodné doplnit o odpovídající diagramy.
+</p>
+
+<h2>Existující řešení</h2>
+<p>
+  Jedná se o významnou a často podceňovanou částí práce.
+  Předchozí kapitola definovala co by měl sw. umět, tato kapitola pak podává přehled o již existujících řešeních a diskutuje jejich výhody a nevýhody.
+  Závěrem kapitoly by mělo být přehledné srovnání, třeba formou tabulky.
+  Do závěrečného přehledu je možné zahrnout i sw. vzniklý v dané práci a přehledně ukázat v čem jsou jeho výhody.
+  Cílem přehledu existujících řešení není najít X nástrojů a zkopírovat jejich popis z webové stránky.
+  V kapitole by mělo být také popsáno jak probíhalo vyhledávání zmíněných řešení.
+  Příkladem může být seznam klíčových slov zadaných do vyhledávače.
+</p>
+
+<h2>Návrh</h2>
+<p>
+  V kapitole *Analýza* je popsáno co by měl software umět.
+  Náplní této kapitoly je jak toho dosáhnout - tedy jak implementovat.
+  Cílem není detailní popis, ale základní rozhodnutí jenž byla při návrhu učiněna.
+  Příkladem může být nutnost použití databáze, architektura aplikace, či zvolené knihovny.
+  Každé rozhodnutí by mělo být diskutováno včetně dopadů na sw. a možných alternativ.
+  Tuto kapitolu je vhodné doplnit o diagramy.
+</p>
+<p>
+  Příkladem může být volba knihovny.
+  Mělo by zde být popsáno na co bude knihovna použita, jaké knihovny s danou funkcionalitou existují, jaké mají výhody a nevýhody.
+  Dále pak nastínit jak by návrh vypadal, když bychom se rozhodli pro danou knihovnu.
+  Závěrem pak krátce zdůvodnit proč jsme si vybrali knihovnu jakou jsme zvolili.
+</p>
+
+<h2>Uživatelská dokumentace</h2>
+<p>
+  Tato kapitola slouží pro uživatele, měla by popisovat jak se sw. pracovat.
+  Ideální je demonstrovat použití sw. na scénářích.
+  Ty mohou být vymyšlené, nebo mohou pokrývat zadání.
+  Tedy pokud je v zadání práce že sw. umožní X, pak je ideální mít scénář ve kterém bude X provedeno.
+  Scénáře je vhodné doplnit obrázky.
+</p>
+
+<h2>Vývojářská dokumentace</h2>
+<p>
+  Cílem není opisovat komentáře z kódu, nebo ukazovat seznam tříd či metod, toto všechno je vidět ze samotného kódu.
+  Naopak high-level rozhodnutí jsou popsána v kapitole Návrh*, zde míříme mezi tyto dvě úrovně.
+  Tato kapitola by měla obsahovat detaily z procesu implementace, tedy z procesu jenž z návrhu udělal zdrojový kód.
+  Cílem je popsat zde vše, co není standardní či by mohlo přijít dalšímu programátorovi zajímavé/divné.
+  Příkladem může být: vlastní implementace algoritmu, speciální ošetření vstupu, nevyužití funkcionality z nějaké knihovny, informace o chybě v použité knihovně, atd.
+</p>
+
+<h2>Administrátorská dokumentace</h2>
+<p>
+  Obsahuje postup jak váš sw. nasadit a provozovat.
+  Musí zde být kompletní specifikace požadavků na běhové prostředí, tj. OS a jeho verze, knihovny a verze, databáze ... 
+  Z hlediska procesu nasazení považuji za přijatelný seznam instrukcí, jenž je možné stylem copy&paste do příkazového řádku využít ke zprovoznění sw.
+  V ideálním případě je použito Dockeru a tedy seznam instrukcí je velice krátký.
+  Je důležité nezapomenout na data, jenž jsou použita pro testování nebo ve scénářích z *Uživatelská dokumentace*.
+</p>
+
+<h2>Testování</h2>
+<p>
+  V této kapitole je popsáno jak byl sw. testován.
+  Tedy zejména jaké druhy testů byly použity a jaké je pokrytí kódu (cílem není 100% pokrytí).
+  Současně by také mělo být řečeno jak dlouho a na jakém hardwaru spuštění testů trvá.
+</p>
+
+<h2>Závěr</h2>
+<p>
+  Shrnutí přínosů celé práce a nastínění možného dalšího vývoje.
+</p>
+
+<h3>Výzkumná práce</h3>
+<p>
+  Cílem výzkumné práce je zejména vývoj/návrh/úprava nové/existující metody, datové sady, ... obecně jde o práce, kde není možné předem zaručit jejich průběh a výsledek.
+  Textová část implementační práce by měla obsahovat následující  části:
+</p>
+
+<h4>Úvod</h4>
+<p>
+  Úvod by měl být čitelný širokou veřejností, neměl by tedy počítat s počáteční znalostí domény problému.
+  Naopak, úvod by měl čtenáře do domény uvést pomocí definice pojmů, vztahů a problémů.
+  Dále by měl nastínit jaký problém práce řeší a jaký bude přínos, pokud bude problém vyřešen.
+</p>
+
+<h4>Popis problému </h4>
+<p>
+  Zde by měla být dotažena definice problému do detailu jenž je v doméně běžná.
+</p>
+
+<h4>Existující řešení</h4>
+<p>
+  Podobné jako u implementační práce, netřeba klást takový důraz na strukturované porovnání.
+</p>
+
+<h4>Implementace</h4>
+<p>
+  Jedná se o kapitolu sdružující kapitoly <em>Analýza</em>, <em>Návrh</em> a <em>Vývojářská dokumentace</em>.
+</p>
+
+<h4>Administrátorská dokumentace</h4>
+<p>
+  Podobná jako u implementační práce.
+  U výzkumné práce je větší předpoklad, že nebude potřebovat GUI a tedy by použití Dockeru mělo být téměř samozřejmostí.
+</p>
+
+<h4>Experimenty</h4>
+<p>
+  V této kapitole jsou popsány jednotlivé experimenty a jejich výsledky.
+  Součástí by měl být i postup jak experimenty spustit, tedy do jisté míry obdoba *Uživatelská dokumentace* z implementační práce.
+</p>
+
+<h4>Diskuse</h4>
+<p>
+  Význam výsledků experimentů je možné diskutovat rovnou v kapitole experimenty a tato kapitola je tedy volitelná.
+  Diskuze výsledků v kapitole *Experimenty* je vhodný zejména pokud je mezi experimenty nějaká návaznost.
+  Pokud mezi experimenty návaznost není, nebo naopak chcete podat souhrnné vysvětlení je tato kapitola tím správným  místem. 
+  Současně je zde možné podat vysvětlení toho proč se případně něco nepovedlo a jaké jsou možnosti nápravy / dosažení lepších výsledků.
+</p>
+
+<h4>Závěr</h4>
+<p>
+  Shrnutí přínosů celé práce a nastínění možného dalšího vývoje.
+</p>
+

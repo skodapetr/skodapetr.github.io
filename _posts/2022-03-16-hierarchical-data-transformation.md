@@ -2,7 +2,7 @@
 layout: post
 language: en
 title: Hierarchical Data Transformation
-tag: ["Bachelor thesis"]
+tag: "Bachelor thesis"
 category: project-ideas
 ---
 
