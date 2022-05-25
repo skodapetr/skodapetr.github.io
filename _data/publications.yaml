@@ -1,0 +1,141 @@
+- title: 'PrankWeb 3: accelerated ligand-binding site predictions for experimental and modelled protein structures'
+  doi: '10.1093/nar/gkac389'
+  year: 2022
+  journal: true
+- title: 'PDBe-KB: collaboratively defining the biological context of structural data'
+  doi: '10.1093/nar/gkab988'
+  year: 2022
+  journal: true
+- title: 'Modular Framework for Similarity-based Dataset Discovery using External Knowledge, Data Technologies and Applications'
+  doi: '10.1108/DTA-09-2021-0261'
+  year: 2022
+  journal: true
+- title: 'Similarity vs. Relevance: From Simple Searches to Complex Discovery'
+  doi: '10.1007/978-3-030-89657-7_9'
+  year: 2021
+- title: 'Evaluation Framework for Search Methods Focused on Dataset Findability in Open Data Catalogs'
+  doi: '10.1145/3428757.3429973'
+  year: 2020
+- title: 'Visualizer of Dataset Similarity Using Knowledge Graph'
+  doi: 10.1007/978-3-030-60936-8_29
+  year: 2020
+- title: 'PDBe-KB: a community-driven resource for structural and functional annotations'
+  doi: '10.1093/nar/gkz853'
+  year: 2020
+  journal: true
+- title: 'Open IE-Triples Inference - Corpora Development and DNN Architectures'  
+  doi: '10.15439/2020F78'
+  year: 2020  
+- title: 'Explainable Similarity of Datasets Using Knowledge Graph'
+  doi: '10.1007/978-3-030-32047-8_10'
+  year: 2019
+- title: 'PrankWeb: a web server for ligand binding site prediction and visualization'
+  doi: '10.1093/nar/gkz424'
+  year: 2019
+  journal: true
+- title: 'Survey of tools for Linked Data consumption'
+  doi: '10.3233/SW-180316'
+  year: 2019
+  journal: true
+- title: 'Software framework for similarity-based prediction of protein interfaces'
+  doi: '10.1109/BIBM.2018.8621181'
+  year: 2018
+- title: 'UnifiedViews: an ETL tool for RDF data management'
+  doi: '10.3233/SW-180291'
+  year: 2018
+  journal: true
+- title: 'LinkedPipes DCAT-AP Viewer: A Native DCAT-AP Data Catalog'
+  url: 'http://ceur-ws.org/Vol-2180/paper-32.pdf'
+  year: 2018
+  authors:
+    - Jakub Klímek
+    - Petr Škoda  
+  conference: 
+    name: 'International Semantic Web Conference'
+- title: 'LinkedPipes ETL in use: practical publication and consumption of linked data'
+  doi: '10.1145/3151759.3151809'
+  year: 2017
+- title: 'Platform for ligand-based virtual screening integration'
+  doi: '10.1109/BIBM.2017.8218015'
+  year: 2017
+- title: 'Improving quality of ligand-binding site prediction with Bayesian optimization'
+  doi: '10.1109/BIBM.2017.8218024'
+  year: 2017
+- title: 'Speeding up publication of Linked Data using data chunking in LinkedPipes ETL'
+  doi: '10.1007/978-3-319-69459-7_10'
+  year: 2017
+- title: 'Practical Use Cases for Linked Open Data in eGovernment Demonstrated on the Czech Republic'
+  doi: '10.1007/978-3-319-64248-2_7'
+  year: 2017
+- title: 'Benchmarking platform for ligand-based virtual screening'
+  doi: '10.1109/BIBM.2016.7822693'
+  year: 2016
+- title: 'Utilizing knowledge base of amino acids structural neighborhoods to predict protein-protein interaction sites'
+  doi: '10.1186/s12859-017-1921-4'
+  year: 2016
+  journal: true
+- title: 'Using Bayesian modeling on molecular fragments features for virtual screening'
+  doi: '10.1109/CIBCB.2016.7758111'
+  year: 2016
+- title: 'LinkedPipes ETL: Evolved linked data preparation'
+  doi: '10.1007/978-3-319-47602-5_20'
+  year: 2016
+- title: 'Reusable transformations of Data Cube Vocabulary datasets from the fiscal domain'
+  url: 'http://ceur-ws.org/Vol-1654/article-04.pdf'
+  year: 2016
+  authors:
+    - Jindřich Mynarz
+    - Jakub Klímek
+    - Marek Dudáš
+    - Petr Škoda
+    - Christiane Engels
+    - Fathoni A. Musyaffa
+    - Vojtech Svátek
+  conference:
+    name: 'International Semantic Web Conference'
+  workshop: 
+    name: 'International Workshop on Semantic Statistics'
+- title: 'Requirements on Linked Data Consumption Platform'
+  url: 'http://ceur-ws.org/Vol-1593/article-01.pdf'
+  year: 2016
+  authors:
+    - Jakub Klímek
+    - Petr Škoda
+    - Martin Nečaský
+  conference: 
+    name: 'International World Wide Web Conference'
+  workshop:
+    name: 'Workshop on Linked Data on the Web'
+- title: 'Exploration of topological torsion fingerprints'
+  doi: '10.1109/BIBM.2015.7359792'
+  year: 2015
+- title: 'UnifiedViews: Towards ETL Tool for Simple yet Powerfull RDF Data Management'
+  url: 'http://ceur-ws.org/Vol-1343/poster14.pdf'
+  year: 2015
+  authors:
+    - Tomáš Knap
+    - Petr Škoda
+    - Jakub Klímek
+    - Martin Nečaský
+  conference:
+    name: 'Dateso'
+    link: 'http://www.cs.vsb.cz/dateso/2015/'
+- title: 'Scaffold-based chemical space exploration'
+  doi: '10.1109/BIBM.2014.6999387'
+  year: 2014
+- title: '2D Pharmacophore Query Generation'
+  doi: '10.1007/978-3-319-08171-7_26'
+  year: 2014
+- title: 'UnifiedViews: an ETL framework for sustainable RDF data processing'
+  doi: '10.1007/978-3-319-11955-7_52'
+  year: 2014
+- title: 'Target-Oriented Generic Fingerprint-Based Molecular Representation'
+  doi: '10.5121/csit.2014.41219'
+  year: 2014
+- title: 'Molpher: a software framework for systematic chemical space exploration'
+  doi: '10.1186/1758-2946-6-7'
+  year: 2014
+  journal: true
+- title: 'Chemical space visualization using ViFrame'
+  doi: '10.1109/ICIS.2013.6607895'
+  year: 2013
