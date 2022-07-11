@@ -1,0 +1,16 @@
+---
+---
+{
+  "data" : [
+  {% for item in site.data.publications %}
+    {
+      "title": {{ item.title | jsonify }},
+      "doi": {{ item.doi | jsonify }},
+      "year": "{{ item.year }}",
+      "journal": {{ item.journal | default: false | jsonify }},
+      "url": {{ item.url | jsonify }},
+      "created": {{ item.created || jsonify }}
+    }{% unless forloop.last %},{% endunless %}
+  {% endfor %}
+  ]
+}
