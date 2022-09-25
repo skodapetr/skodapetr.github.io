@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 language: cs
 title: Výzkumná závěrečná práce
 ---
@@ -10,54 +10,108 @@ title: Výzkumná závěrečná práce
 <p>
   Tento příspěvek se věnuje specifikům implementační práce. 
   Mimo zde uvedené by práce měla splňovat <a href="{% post_url 2022-03-05-závěrečné-práce %}">obecné zásady pro závěrečné práce</a>.
-  Toto popis není samostatný, ale často se vyhraňuje proti <a href="{% post_url 2022-03-05-implementační-práce %}">implementační práci</a>.
 </p>
 <p>
   Cílem výzkumné práce je zejména vývoj/návrh/úprava nové/existující metody, datové sady, ... obecně jde o práce, kde není možné předem zaručit jejich průběh a výsledek.
-  Textová část implementační práce by měla obsahovat následující  části:
+  Důraz je kladen zejména na vědeckou část práce to i při negativním výsledku: něco nejde, něco se nepodařilo. 
+  Textová část implementační práce by měla obsahovat následující části:
+</p>
+<p>
+  Pokud je výstupem práce také použitelný software, je vhodné uvážit zahrnutí obsahu z <a href="{% post_url 2022-03-05-implementační-práce %}">implementační</a> práce.
 </p>
 
 <h2>Úvod</h2>
 <p>
   Úvod by měl být čitelný širokou veřejností, neměl by tedy počítat s počáteční znalostí domény problému.
-  Naopak, úvod by měl čtenáře do domény uvést pomocí definice pojmů, vztahů a problémů.
-  Dále by měl nastínit jaký problém práce řeší a jaký bude přínos, pokud bude problém vyřešen.
+  Cílem úvodu je uvedení čtenáře do domény pomocí definice pojmů, vztahů, problémů a citací relevantní literatury.  
+  Úvod by měl dále nastínit jaký problém práce řeší a jaký bude přínos, pokud bude problém vyřešen.
 </p>
 
 <h2>Popis problému</h2>
 <p>
-  Zde by měla být dotažena definice problému do detailu jenž je v doméně běžná.
+  Zde by měla být dotažena definice problému do detailu jenž je v doméně běžný.
 </p>
 
 <h2>Existující řešení</h2>
 <p>
-  Podobné jako u implementační práce, netřeba klást takový důraz na strukturované porovnání.
+  Tato kapitole by měla seznámit čtenáře s existujícími řešeními daného problému.
+  Pro každé řešení by měly být popsáno jeho výhody a nevýhody.
+</p>
+<p>
+  V případě, že neexistuje žádné řešení řešeného problému, je vhodné popsat řešení podobných problémů.
+  V popisu je pak možné se soustředit na odlišnosti od řešeného problému a proč nelze,nebo naopak lze, princip přístupu použít pro řešený problém.
+</p>
+<p>
+  V této kapitole by mělo být také popsáno jak probíhalo vyhledávání zmíněných řešení.
+  Není třeba jít do detailu, ale pokud jste využili vyhledávače, položili několik dotazů a podívali se na výsledky první stránky. 
+  Toto by mělo být v práci popsáno, ideálně včetně použitých dotazů a období hledání.
+  Pro účely vědecké práce je vhodné provést hledání mezi vědeckými publikacemi vhodným vyhledávačem.
 </p>
 
 <h2>Implementace</h2>
 <p>
-  Jedná se o kapitolu sdružující kapitoly <em>Analýza</em>, <em>Návrh</em> a <em>Vývojářská dokumentace</em>.
+  Jedná se o kapitolu sdružující kapitoly <b>Analýza</b>, <b>Návrh</b>, <b>Vývojářská dokumentace</b>, <b>Administrátorská dokumentace</b> z <a href="{% post_url 2022-03-05-implementační-práce %}">implementační</a> práce.
+  Rozsah této kapitoly, či její případně rozdělení záleží na důrazu na vzniklý software.
 </p>
-
-<h2>Administrátorská dokumentace</h2>
 <p>
-  Podobná jako u implementační práce.
-  U výzkumné práce je větší předpoklad, že nebude potřebovat GUI.
-  Použití Dockeru mělo být téměř samozřejmostí.
-  Další předností jeho využití je zlepšení reprodukovatelnosti výpočtů.
+  Pokud je software skript co najde libovolné další prvočíslo v konstantním čase může být popis implementace z hlediska výše uvedeného velice skromný.
+  Naopak bude větší důraz kladen na samotný algoritmus.
+  Pokud bude řešením plugin do nějakého frameworku, je vhodné popsat jak samotné řešení tak i framework.
+</p>
+<p>
+  Pokud software počítá nějaké měřitelné výsledky, je vhodné, pokud je to možné, aby byly výsledky reprodukovatelné.
+  Tomu je možné pomoci zafixováním prostředí, ideálně využít <a href="https://www.docker.com/">Docker</a>.
 </p>
 
 <h2>Experimenty</h2>
 <p>
   V této kapitole jsou popsány jednotlivé experimenty a jejich výsledky.
-  Součástí by měl být i postup jak experimenty spustit, tedy do jisté míry obdoba *Uživatelská dokumentace* z implementační práce.
+  Součástí by měl být i postup jak experimenty spustit, tedy do jisté míry obdoba <b>Uživatelská dokumentace</b>.  
+</p>
+<p>
+  Je třeba počítat s tím, že spuštění musí být rozumně snadné.
+  Naprosto zásadní je poskytnout všechna potřebné data.
+  V případě vlivu náhody, pak provádět více měření a ty agregovat. 
+  Zvolená metoda agregace, počet opakování, atd... vše by mělo  být v této kapitole popsány a zdůvodněno.
+</p>
+<p>
+  V neposlední řadě může tato sekce obsahovat naměřené výsledky, či jejich shrnutí třeba vhodnou grafikou.
+  Všechny naměřené hodnoty by měly být ve strojově čitelné podobně součástí přílohy práce.
+  Ideální je využití otevřeného formátu, například vhodně zdokumentovaný CSV soubor je lepší než <a href="https://data.gov.cz/otev%C5%99en%C3%A1-data-snadno-a-rychle/#1-za%C4%8D%C3%ADn%C3%A1me-s-excelovsk%C3%BDm-souborem">barevný Excel</a>.
+</p>
+
+<h2>Datové sady</h2>
+<p>
+  Tuto kapitoly je možné realizovat v rámci experimentů, avšak s rostoucí popularitou reproducibility, a FAIR je možné její vyčlenění.
+  Cílem je popsat jaké datové sady byly v experimentech použité.
+  Může tedy dávat odpovědi na následující otázky:
+  Odkud a kdy jsem data stáhl?
+  Proč zrovna tato data a né jiná?
+  Jak jsou data velká, jaká je kvalita, jaké jsou další doménově specifické vlastnosti?
+  Jak jsem data předzpracoval - tady je ideální dodat skript.
+</p>
+<p>
+  V případě, že v rámci experimentů naopak nová datové sada vznikla je třeba jí popsat.
+  Jedná se o odpovědi na v zásadě stejná otázky jako při použití, jen z opačné strany.
 </p>
 
 <h2>Diskuse</h2>
 <p>
-  Význam výsledků experimentů je možné diskutovat rovnou v kapitole experimenty a tato kapitola je tedy volitelná.
-  Diskuze výsledků v kapitole *Experimenty* je vhodný zejména pokud je mezi experimenty nějaká návaznost.
-  Pokud mezi experimenty návaznost není, nebo naopak chcete podat souhrnné vysvětlení je tato kapitola tím správným  místem. 
+  Význam výsledků experimentů je možné diskutovat rovnou v kapitole experimenty.
+  Tento postup je vhodný zejména pokud je mezi experimenty nějaká návaznost.
+  Například, pokud výsledky jednoho experimentu vedly k návrhu dalšího.
+  I v takovém případě je však možné využít této kapitoly a to pro diskusi výsledků jako celku. 
+</p>
+<p>
+  Cílem této kapitoly je čtenáři popsat jaký je vlastně reálný dopad změřených hodnot. 
+  Například pokud je nová metoda v něčem lepší tak v čem, je v něčem naopak horší?
+  Jak si vedou metody ze sekce <b>Existující řešení</b>?
+  Jaké jsou silné a slabé stránky našeho řešení?
+  Pokud je čtenářem vědec z dané domény, jak jsou pro něj výsledky této práce relevantní, měl by například začít navrženou metodu používat? 
+  V případě že ano, jaká jsou rizika, je metoda dostatečně otestovaná? 
+  V případě že ne, proč? Co je třeba udělat?
+</p>
+<p></p>
   Současně je zde možné podat vysvětlení toho proč se případně něco nepovedlo a jaké jsou možnosti nápravy / dosažení lepších výsledků.
 </p>
 

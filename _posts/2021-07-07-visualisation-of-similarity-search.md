@@ -3,7 +3,7 @@ layout: post
 language: en
 title: Visualisation of similarity search
 tag: Bachelor thesis
-category: project-ideas
+category: projects-ideas
 ---
 
 Similarity search is a simple search method with a wide range of applications in many domains.

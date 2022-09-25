@@ -2,8 +2,8 @@
 layout: post
 language: en
 title: Hierarchical Data Transformation
-tag: "Bachelor thesis"
-category: project-ideas
+tag: ["Bachelor thesis"]
+category: projects-ideas
 ---
 
 RDF, XML, JSON and many other formats represent hierarchical data; data in a tree/forest like structure.

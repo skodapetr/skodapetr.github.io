@@ -3,7 +3,7 @@ layout: post
 language: em
 title: Semantic code
 tag: ["Bachelor thesis", "Master thesis"]
-category: project-ideas
+category: projects-ideas
 ---
 
 Semantic web, semantic data - the common objective is to attach meaning to the data and increase the interoperability.

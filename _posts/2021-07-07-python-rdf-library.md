@@ -2,8 +2,8 @@
 layout: post
 language: en
 title: Python RDF Library
-tag: Bachelor thesis
-category: project-ideas
+tag: ["Bachelor thesis"]
+category: projects-ideas
 ---
 
 [Resource Description Framework] (RDF) is a standard data model.

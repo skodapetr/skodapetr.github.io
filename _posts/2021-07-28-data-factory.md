@@ -3,7 +3,7 @@ layout: post
 language: en
 title: Data Factory
 tag: ["Bachelor thesis", "Reserved"]
-category: project-ideas
+category: projects-ideas
 ---
 
 Some form of data processing is a common task in almost any computer-related activity.

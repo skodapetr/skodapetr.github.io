@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 language: cs
 title: Závěrečné práce obecně
 ---
@@ -7,6 +7,8 @@ title: Závěrečné práce obecně
 <!-- more -->
 
 <h1>Hodnocení závěrečných prací</h1>
+Hned na úvod je nutné zdůraznit, že níže uvedená doporučení jsou pouze návrhem v obecné rovině.
+Jejich konkrétní aplikaci či podobu je vždy třeba posoudit v kontextu konkrétní závěrečné práce.
 
 <h2>Obecné</h2>
 <ul>
@@ -26,7 +28,7 @@ title: Závěrečné práce obecně
 
 <h2>Textová část práce</h2>
 <p>
-  Na úvod je třeba říci, že počet stránek v žádném případě neindikuje složitost či kvalitu (textové části) práce.
+  Na úvod je třeba říci, že počet stránek v žádném případě neindikuje složitost či kvalitu textové části práce.
   Naopak, kvalitnější text dokáže sdělit stejné množství informací v menším rozsahu.
   Nelze tak obecně říci, kolik stránek by práce měla mít.
   Nicméně pokud má práce pod 30 stránek, je to asi málo, pokud má přes 80 stran je to asi moc.
@@ -36,6 +38,7 @@ title: Závěrečné práce obecně
 <p>
   Práce je možné rozdělit na dvě skupiny, <a href="{% post_url 2022-03-05-implementační-práce %}">implementační</a> a <a href="{% post_url 2022-03-05-výzkumná-práce %}">výzkumné</a>.
   Hranice však nejsou pevné a většina prací, zejména diplomových, bude na pomezí těchto dvou skupin.
+  Zbytek tohoto textu se soustředí na aspekty, které jsou společné pro oba typy práce.
 </p>
 
 <h2>Diagramy</h2>
@@ -49,11 +52,16 @@ title: Závěrečné práce obecně
   Zcela zásadní je pak použitou notaci zdokumentovat, případně na dokumentaci notace odkázat.
 </p>
 <p>
-  Alternativou k ručnímu kreslení je generování diagramů z kódu.
+  Alternativou k ručnímu kreslení diagramů je generování diagramů z kódu.
   Příkladem tohoto přístupu je <a href="https://structurizr.com/">Structurizr</a>.
   Výhodou je eliminace potřeby vymýšlet grafickou notaci, možnost generovat různé diagramy ze stejného vstupu, či možnost snadného verzování diagramů.
 </p>
 <p>
   Diagramy ukazují architekturu řešení z různých pohledů, neměli bychom tedy tyto míchat v jednom diagramu.
   Pokud si nejste jistí jaké pohledy použít a jak vůbec architekturu dokumentovat je možné se inspirovat například v <a href="https://c4model.com/">C4 modelu</a>.
+</p>
+
+<h2>Nasazení aplikace</h2>
+<p>
+  Pro distribuci vzniklého softwaru je vhodné využít <a href="https://www.docker.com/">Docker</a>.
 </p>

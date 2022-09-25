@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 language: cs
 title: Implementační závěrečná práce
 ---
@@ -8,11 +8,11 @@ title: Implementační závěrečná práce
 
 <h1>Implementační práce</h1>
 <p>
-Tento příspěvek se věnuje specifikům implementační práce. 
-Mimo zde uvedené by práce měla splňovat <a href="{% post_url 2022-03-05-závěrečné-práce %}">obecné zásady pro závěrečné práce</a>.
+  Tento příspěvek se věnuje specifikům implementační práce. 
+  Mimo zde uvedené by práce měla splňovat <a href="{% post_url 2022-03-05-závěrečné-práce %}">obecné zásady pro závěrečné práce</a>.
 </p>
 <p>
-  Hlavním výstupem je program (sw.).
+  Hlavním výstupem implementační práce je software (SW).
   Důraz je kladen zejména na kvalitu implementace a dokumentace.
   Textová část implementační práce by měla obsahovat následující části:
 </p>
@@ -20,59 +20,81 @@ Mimo zde uvedené by práce měla splňovat <a href="{% post_url 2022-03-05-záv
 <h2>Úvod</h2>
 <p>
   Úvod by měl být čitelný širokou veřejností, neměl by tedy počítat s počáteční znalostí domény problému.
-  Naopak, úvod by měl čtenáře do domény uvést pomocí definice pojmů, vztahů a problémů.
-  Dále by měl popisovat uživatele aplikace, jeho požadavky a benefity jenž mu použití aplikace přinese.
+  Cílem úvodu je uvedení čtenáře do domény pomocí definice pojmů, vztahů, problémů a citací relevantní literatury.  
+  Úvod by měl dále popisovat uživatele aplikace, jeho požadavky a benefity jenž mu použití aplikace přinese.
 </p>
 
 <h2>Analýza</h2>
 <p>
-  Tato část by měla obsahovat popis požadavků na sw. ve formě strukturovaných funkčních a nefunkčních požadavků a use-casů.
-  Cílem je specifikovat chování, tedy jak se bude sw. chovat zvenčí.
-  Speciálně se zde neřeší implementace sw. na ten se tedy zatím díváme jako na černou skříňku.
-  U požadavků by mělo být jasné z jakého jsou zdroje.
+  Tato část by měla obsahovat popis požadavků na SW ve formě strukturovaných funkčních a nefunkčních požadavků a případů použití.
+  Cílem je specifikovat chování, tedy jak se bude SW chovat zvenčí pro aktéry.
+  Aktéři pak může být člověk, nebo i jiná aplikace. 
+  Součástí analýzu by měl být popis aktérů
+</p>
+<p>
+  Tato kapitola neřeší implementace SW na ten se tedy zatím díváme jako na černou skříňku.
+  U požadavků by mělo být jasné z jakého jsou zdroje, tedy odkud pochází.
   Analýzu je vhodné doplnit o odpovídající diagramy.
+  Zde je třeba mít na paměti, že diagram by měl komunikovat vybranou informaci. 
+  Může být tedy lepší zvolit více menších use-case diagramů zachycující vybrané aktéry, než jeden velký.
 </p>
 
 <h2>Existující řešení</h2>
 <p>
-  Jedná se o významnou a často podceňovanou částí práce.
-  Předchozí kapitola definovala co by měl sw. umět, tato kapitola pak podává přehled o již existujících řešeních a diskutuje jejich výhody a nevýhody.
+  Jedná se o významnou, avšak často podceňovanou částí práce.
+  Předchozí kapitola definovala co by měl SW umět, tato kapitola pak podává přehled o již existujících řešeních a diskutuje jejich výhody a nevýhody.
   Závěrem kapitoly by mělo být přehledné srovnání, třeba formou tabulky.
-  Do závěrečného přehledu je možné zahrnout i sw. vzniklý v dané práci a přehledně ukázat v čem jsou jeho výhody.
-  Cílem přehledu existujících řešení není najít X nástrojů a zkopírovat jejich popis z webové stránky.
-  V kapitole by mělo být také popsáno jak probíhalo vyhledávání zmíněných řešení.
-  Příkladem může být seznam klíčových slov zadaných do vyhledávače.
+</p>  
+<p>
+  Cílem přehledu existujících řešení není najít X řešení a zkopírovat jejich popis z webové stránky.
+  Ani půl odstavce vlastních slov, nemusí být přínosné pokud jen konstatuje obecná fakta či popisuje subjektivní vlastnosti. 
+  Například, software se mi dobře používal a má hezké barvičky.
+  Na druhou stranu třeba přítomnost dark-modu u webové stránky je už objektivní kritérium.
+</p>
+<p>
+  Software by tedy měl být hodnocen pomocí vybraných, a popsaných, kritérií. 
+  Případně může být u každého softwaru nástroje popsáno co dělá jinak a to zejména v případě, kdy je rešeršní části využito k získání požadavků.
+</p>
+<p>
+  V této kapitole by mělo být také popsáno jak probíhalo vyhledávání zmíněných řešení.
+  Není třeba jít do detailu, ale pokud jste využili oblíbený vyhledávač, položili několik dotazů a podívali se na výsledky první stránky. 
+  Toto by mělo být v práci popsáno, ideálně včetně použitých dotazů a období hledání.
+</p>
+<p>
+  Na závěr této kapitoly by pak mělo přijít shrnutí.
+  Tedy co jsme vlastně zjistili, neb pokud bylo cílem jen popsat papír - pak je to špatně.
+  Příkladem může být třeba shrnutí proč je třeba dělat N+1 tool, toto shrnutí by mělo být skutečně objektivní a vycházet z předchozího textu.
 </p>
 
 <h2>Návrh</h2>
 <p>
-  V kapitole *Analýza* je popsáno co by měl software umět.
+  V kapitole <b>Analýza</b> je popsáno co by měl software umět.
   Náplní této kapitoly je jak toho dosáhnout - tedy jak implementovat.
-  Cílem není detailní popis, ale základní rozhodnutí jenž byla při návrhu učiněna.
-  Příkladem může být nutnost použití databáze, architektura aplikace, či zvolené knihovny.
-  Každé rozhodnutí by mělo být diskutováno včetně dopadů na sw. a možných alternativ.
+  Cílem není detailní popis, ale hlavní rozhodnutí jenž byla při návrhu učiněna.
+  Příkladem může být nutnost použití databáze, architektura aplikace, programovací jazyk, či zvolené knihovny.
+  Každé rozhodnutí by mělo být diskutováno včetně dopadů na SW a možných alternativ.
   Tuto kapitolu je vhodné doplnit o diagramy.
 </p>
 <p>
-  Příkladem může být volba knihovny.
+  Uveďme si příklad na volbě knihovny.
   Mělo by zde být popsáno na co bude knihovna použita, jaké knihovny s danou funkcionalitou existují, jaké mají výhody a nevýhody.
-  Dále pak nastínit jak by návrh vypadal, když bychom se rozhodli pro danou knihovnu.
+  Dále pak nastínit jak by návrh vypadal, když bychom se rozhodli pro různé knihovny.
   Závěrem pak krátce zdůvodnit proč jsme si vybrali knihovnu jakou jsme zvolili.
 </p>
 
 <h2>Uživatelská dokumentace</h2>
 <p>
-  Tato kapitola slouží pro uživatele, měla by popisovat jak se sw. pracovat.
-  Ideální je demonstrovat použití sw. na scénářích.
+  Tato kapitola slouží pro uživatele, měla by popisovat jak se SW pracovat.
+  Ideální je demonstrovat použití SW na scénářích.
   Ty mohou být vymyšlené, nebo mohou pokrývat zadání.
-  Tedy pokud je v zadání práce že sw. umožní X, pak je ideální mít scénář ve kterém bude X provedeno.
-  Scénáře je vhodné doplnit obrázky.
+  Tedy pokud je v zadání práce že SW umožní X, pak je ideální mít scénář ve kterém bude X provedeno.
+  Scénáře je vhodné doplnit obrázky, či video ukázkou.
 </p>
 
 <h2>Vývojářská dokumentace</h2>
 <p>
   Cílem není opisovat komentáře z kódu, nebo ukazovat seznam tříd či metod, toto všechno je vidět ze samotného kódu.
-  Naopak high-level rozhodnutí jsou popsána v kapitole Návrh*, zde míříme mezi tyto dvě úrovně.
+  Naopak high-level rozhodnutí jsou popsána v kapitole <b>Návrh</b>, zde míříme mezi tyto dvě úrovně.
   Tato kapitola by měla obsahovat detaily z procesu implementace, tedy z procesu jenž z návrhu udělal zdrojový kód.
   Cílem je popsat zde vše, co není standardní či by mohlo přijít dalšímu programátorovi zajímavé/divné.
   Příkladem může být: vlastní implementace algoritmu, speciální ošetření vstupu, nevyužití funkcionality z nějaké knihovny, informace o chybě v použité knihovně, atd.
@@ -80,18 +102,26 @@ Mimo zde uvedené by práce měla splňovat <a href="{% post_url 2022-03-05-záv
 
 <h2>Administrátorská dokumentace</h2>
 <p>
-  Obsahuje postup jak váš sw. nasadit a provozovat.
+  Obsahuje postup jak váš SW nasadit a provozovat.
   Musí zde být kompletní specifikace požadavků na běhové prostředí, tj. OS a jeho verze, knihovny a verze, databáze ... 
-  Z hlediska procesu nasazení považuji za přijatelný seznam instrukcí, jenž je možné stylem copy&paste do příkazového řádku využít ke zprovoznění sw.
-  V ideálním případě je použito Dockeru a tedy seznam instrukcí je velice krátký.
-  Je důležité nezapomenout na data, jenž jsou použita pro testování nebo ve scénářích z *Uživatelská dokumentace*.
+  Z hlediska procesu nasazení považuji za přijatelný seznam instrukcí, jenž je možné stylem copy&paste do příkazového řádku využít ke zprovoznění SW.
+  V ideálním případě je využitý <a href="https://www.docker.com/">Docker</a> a tedy seznam instrukcí je velice krátký.
+  Je důležité nezapomenout na data, jenž jsou použita pro testování nebo ve scénářích z <b>Uživatelská dokumentace</b>.
 </p>
 
 <h2>Testování</h2>
 <p>
-  V této kapitole je popsáno jak byl sw. testován.
+  V této kapitole je popsáno jak byl SW testován.
   Tedy zejména jaké druhy testů byly použity a jaké je pokrytí kódu (cílem není 100% pokrytí).
   Současně by také mělo být řečeno jak dlouho a na jakém hardwaru spuštění testů trvá.
+</p>
+
+<h2>Uživatelské testování</h2>
+<p>
+  Ačkoliv se nejedná o povinnou kapitolu, může výrazně vylepšit obraz práce.
+  Cílem této kapitoly je sehnat několik lidí, alespoň tři, kteří budou ochotní otestovat vytvořené dílo na vybraném scénáři.
+  V této kapitole je pak možné popsat jejich zkušenosti. 
+  Optimální je využití <a href="https://www.usability.gov/how-to-and-tools/methods/system-usability-scale.html">System Usability Scale</a> (SUS) metodiky.
 </p>
 
 <h2>Závěr</h2>

@@ -3,7 +3,7 @@ layout: post
 language: cs
 title: Solid Server
 tag: ["Bachelor thesis", "Master thesis"]
-category: project-ideas
+category: projects-ideas
 ---
 
 [Solid] je sada specifikací a implementací navržená pro decentralizaci dat webu.

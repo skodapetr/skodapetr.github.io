@@ -3,7 +3,7 @@ layout: post
 language: em
 title: "Use-case : Documentation Reference"
 tag: ["Bachelor thesis"]
-category: project-ideas
+category: projects-ideas
 ---
 
 Use-case for [Semantic code]({% post_url 2022-03-06-semantic-code %}).

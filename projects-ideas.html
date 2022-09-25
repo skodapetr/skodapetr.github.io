@@ -1,9 +1,16 @@
 ---
 layout: default
+title: Projects
 ---
 <div class="container my-2 py-2">
+  <h1>Projects ideas</h1>
+  <p>
+    Most, if not all, of listed ideas are suitable for Master of Bachelor theses.
+    See tags in each entry fore more details.
+  </p>
   <div>
-    {% for post in site.posts %}
+    {% assign posts = site.posts | where: "category", "projects-ideas" %}
+    {% for post in posts %}
     <article class="card my-2">
       <div class="card-body">
         <div>
