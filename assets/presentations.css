@@ -1,6 +1,6 @@
-/* 
- * Responsive layout and light/dark theme. 
- */
+/***************************************************************************** 
+ * Responsive layout and light/dark theme.                                   *
+ *****************************************************************************/
 
 :root {
     --r-main-font-size: 3.8vmin;
@@ -65,20 +65,20 @@ section {
     border: 1px solid white;
 }
 
-/* 
- * Visual of core elements. 
- */
+/***************************************************************************** 
+ * Visual of selected elements.                                              *
+ *****************************************************************************/
 
 img {
     object-fit: contain;
 }
 
 .reveal pre>code {
+    /* Add padding to code. */
     padding: 1rem;
 }
 
-.reveal code,
-.reveal .code {
+.reveal code {
     font-family: monospace;
 }
 
@@ -96,27 +96,40 @@ img {
     color: var(--r-dim-color);
 }
 
-/*
- * Custom elements and styles to employ
- */
-
 .reveal .important {
     color: var(--r-important);
 }
 
-.reveal .column {
+/***************************************************************************** 
+ * Layout.                                                                   *
+ *****************************************************************************/
+
+ /* Put content into columns. */
+ .reveal .column {
     display: flex;
     flex-direction: column;
 }
 
+/* Put content into rows. */
 .reveal .row {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
 }
 
+/* Put content into rows. */
+.reveal .row-2 {
+    display: flex;
+    flex-direction: row;
+    gap: 4rem;
+}
+
+.reveal .row-2 > * {
+    width: 50%;
+}
+
+/* Center content. */
 .reveal .center {
-    /* Center the content using Flex. */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -124,7 +137,8 @@ img {
     width: 100%;
 }
 
+/* Put content at the bottom. */
 .reveal .bottom {
-    bottom: 2rem; 
+    bottom: 0;
     position: absolute;
 }
