@@ -1,6 +1,6 @@
 ---
 layout: post
-language: em
+language: en
 title: Semantic code
 tag: ["Bachelor thesis", "Master thesis"]
 category: projects-ideas

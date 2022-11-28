@@ -2,7 +2,7 @@
 layout: post
 language: en
 title: Visualisation of similarity search
-tag: ["Bachelor thesis"]
+tag: ["Bachelor thesis", "Diploma thesis"]
 category: projects-ideas
 ---
 

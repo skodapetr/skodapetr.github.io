@@ -2,7 +2,7 @@
 layout: post
 language: cs
 title: Solid Server
-tag: ["Bachelor thesis", "Master thesis"]
+tag: ["Bachelor thesis"]
 category: projects-ideas
 ---
 

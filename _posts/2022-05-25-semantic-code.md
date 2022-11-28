@@ -1,6 +1,6 @@
 ---
 layout: post
-language: em
+language: en
 title: "Use-case : Documentation Reference"
 tag: ["Bachelor thesis"]
 category: projects-ideas
@@ -12,7 +12,7 @@ Use-case for [Semantic code]({% post_url 2022-03-06-semantic-code %}).
 
 We may draw inspiration from PHP, where comments are extensively used to store annotations.
 This is possible as the comments can be read at runtime.
-For [example](https://phpstan.org/writing-php-code/phpdoc-types#global-type-aliases) type aliases.
+For example [type aliases][global type aliases].
 The annotations are employed to do define types returned from functions.
 In the example additional data are provided in an extra file.
 
@@ -30,9 +30,10 @@ For example:
 ```
 May point to a file in current repository located at ```documentation/concepts.md``` section ```Pipeline```.
 
-
 As a next step a plugin into IDE (Visual Studio Code) may be created.
 The plugin would, on hover, show the link the metadata and the documentation.
 
 Besides proof of concept this would allow us to separate comments and code.
 The code may thus simply refer to a list of concepts, which is part of the documentation.
+
+[global type aliases]: <https://phpstan.org/writing-php-code/phpdoc-types#global-type-aliases>
