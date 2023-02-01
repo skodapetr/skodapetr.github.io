@@ -2,7 +2,7 @@
 layout: post
 language: en
 title: Data Factory
-tag: ["Bachelor thesis"]
+tag: ["Bachelor thesis", "Diploma thesis"]
 category: projects-ideas
 ---
 
