@@ -1,4 +1,4 @@
-(function main() {
+(function initialize() {
 
   window.MainPresentation = {
     "configuration": {
@@ -9,7 +9,7 @@
       "hash": true,
       "slideNumber": "c",
       "navigationMode": "linear",
-      "plugins": [ RevealHighlight, RevealNotes ],
+      "plugins": [RevealHighlight, RevealNotes],
     }
   };
 
