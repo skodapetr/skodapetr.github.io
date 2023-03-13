@@ -2,7 +2,7 @@
 layout: post
 language: en
 title: "Vocabulary hub"
-tag: ["Bachelor thesis", "Diploma thesis"]
+tag: ["Bachelor thesis", "Diploma thesis", "Under negotiation"]
 category: projects-ideas
 ---
 
@@ -16,22 +16,23 @@ The objective of this project is to tackle those issues.
 
 <!-- more -->
 
-As the problem is quite complex it is not expected that it could be tackled by a single project or researcher by top-down approach.
-Instead we should focus on bottom-up approach by proposing and implementing partial solutions in separate projects.
+As the problem is quite complex, I do not expect a single person could fully resolve it with a top-down approach.
+Instead, we should focus on a bottom-up approach by proposing and implementing partial solutions in separate projects.
 
-In this project we focus on sharing the vocabulary using a shared repository, called vocabulary hub. 
+In this project, we focus on sharing the vocabulary using a shared repository called vocabulary hub. 
 What vocabulary hub exactly is and how it could be used should be specified as a part of the project.
-Anyway I would like to hint a few ideas:
-* User can store reference to their vocabulary in vocabulary hub.
-* User can store their vocabulary in vocabulary hub.
-* User can utilize vocabulary hub as a "proxy" for dereferencing vocabularies.
-* User can search in stored vocabularies.
+Anyway, I would like to hint at a few ideas:
+* Users can store references to their vocabulary in the vocabulary hub.
+* Users can store their vocabulary in the vocabulary hub.
+* Users can utilize the vocabulary hub as a "proxy" for dereferencing vocabularies.
+* Users can search in stored vocabularies.
 
-As a part of the analysis we also need to inspect existing solutions such as:
-* https://lov.linkeddata.es/dataset/lov/
+This idea is not new, and there are existing solutions like:
+* [Linked Open Vocabularies (LOV)](https://lov.linkeddata.es/dataset/lov/)
 
-Here is a list of soma additional, semi-random ideas:
-* Vocabulary hub should allow for search using example data or example vocabularies.
-  Overall the idea is to make it easy for user to find vocabulary to employ.
-* Vocabulary hub should not be limited only to vocabularies. 
-  It should support also conceptual/logical models.
+The list below contains some additional ideas to consider when tackling this project:
+* The vocabulary hub should allow for search using example data or example vocabulary, similar to the query by example.
+  Overall the idea is to make it easy for users to find a vocabulary to employ.
+* The vocabulary hub should not be limited only to linked data vocabularies. 
+  It should support conceptual/logical models of any schema.
+

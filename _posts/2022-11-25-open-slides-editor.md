@@ -2,7 +2,7 @@
 layout: post
 language: en
 title: "Open Slides Editor"
-tag: ["Bachelor thesis"]
+tag: ["Bachelor thesis", "Under negotiation"]
 category: projects-ideas
 ---
 
@@ -14,34 +14,38 @@ If you, like me, feel that there should be a better tool, you may consider readi
 <!-- more -->
 
 An alternative to established tools is web-based presentations.
-Although implementing such a presentation from scratch is possible, it is a labour-intensive task.
-A solution is to utilize a framework like [reveal.js][revealjs].
+Although implementing web-based presentations from scratch is possible, it is a labour-intensive task.
+A solution is to utilize a framework like [reveal.js].
 Yet even with a framework creating slides as code is much slower than using a visual editor.
-There is an editor for reveal.js called [slides][slides], but it starts at a $5 monthly subscription. 
+There is an editor for reveal.js called [slides], but it is not free of charge.
 
-Another issue is the slides as code (HTML) approach. 
-It may provide more power than necessary.
-For example, a user may need to use only a few basic operations:
-* Add heading
-* Add text 
-* Format text using color, size, ...
-* Load external graphics 
-* Add a shape
-* Position the content
-The list is by no means complete; a proper analysis and related work research should be carried out to create the list.
+A similar approach is a slides-as-code approach. 
+In this approach, a user writes code used to generate the slides. 
+Conceptually this is similar to web-based presentations, yet limiting users in available constructs.
 
-It may be even more productive to strip a user of some power.
-Instead, the user may be presented with a set of customizable layouts that may render it faster to create slides.
+A similar approach is a slides-as-code approach. 
+In this approach, a user writes code used to generate the slides. 
+Conceptually this is similar to web-based presentations with limited constructs
+Yet providing a user with fewer options may be beneficial. 
+The fewer options user has, the less they need to worry about it and can focus on the important stuff.
+For example, users can be given only several layouts they can employ.
+With proper design, users can be forced into making better slides without even knowing.
 
 In addition, modern slides should be connected and open.
-It should be possible to share slides, manage multiple versions, and easily compile new presentations from existing slides.
-There should also be an option to query the slides, to find certain topics/slides.
-As of the "open", that should be machine-readable and under the user's control.
-The user should decide whether to save data on a local machine or a [Solid][Solid] POD.
+Users should be able to:
+* Share slides
+* Manage multiple versions
+* Re-use slides
+* Compile new presentations from existing slides
+* Connect slides to other data sources
+* Query the slides to find or transform the content
+* Save presentations online using a custom instance or [Solid] POD
+* Save presentations offline
 
-The objective of the text above is to highlight a few possibilities of what a next slide solution may be.
-Those ideas are far from implementation, yet they may contribute to better solutions than we have today.
+The list above is only a suggestion.
+We should compile the final list after an extensive analysis.
+The objective is clear, analyze, design and implement a tool to support the slides-as-code approach.
 
-[revealjs]: <https://revealjs.com/>
+[reveal.js]: <https://revealjs.com/>
 [slides]: <https://slides.com/>
 [Solid]: <https://solidproject.org/>

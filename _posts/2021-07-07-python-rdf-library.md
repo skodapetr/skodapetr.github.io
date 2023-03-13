@@ -1,23 +1,23 @@
 ---
 layout: post
 language: en
-title: Python RDF Library
+title: Python RDF library
 tag: ["Bachelor thesis"]
 category: projects-ideas
 ---
 
 [Resource Description Framework] (RDF) is a standard data model.
-As RDF becomes widespread more and more data are available in one of the RDF data formats.
-This makes it an interesting data source for developers and data scientists.
-Yet there is no Python library that would allow for processing of larger RDF data files.
-
+As RDF becomes widespread, more and more data are available in one of the RDF data formats.
+Yet no Python library would allow for the processing of larger RDF data files.
 <!-- more -->
 
-RDF model can be stored in number of formats including [Turtle], [JSON-LD], [Trig] or [N-Quads].
-A common issue is a size, where a single RDF file can have up to several gigabytes without any problem.
-For example, a [Wikidata entity dump] have over 80GB compressed. 
-Another issue is that many libraries, e.g. [rdflib], try to load all the data into the main memory at once. 
+We can store RDF in formats like  [Turtle], [JSON-LD], [Trig] or [N-Quads].
+While processing small RDF files is not an issue, processing a large amount of RDF is still a challenge.
+For example, a [Wikidata entity dump] has over 80GB compressed. 
+The issue is that many libraries, e.g. [rdflib], load all the data into the main memory.
+As a result, processing large files is not possible.
 A possible solution is to use non-Python tools with Python bindings like [Raptor] with [Redland].
+Yet this is not developer friendly.
 
 The aim is to design and implement a library that would provide Python developers easy access to the RDF data. 
 The library may provide event-based API (similar to [SAX] API) or some higher-level access after indexing the file.

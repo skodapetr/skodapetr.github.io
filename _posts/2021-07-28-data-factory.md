@@ -1,28 +1,36 @@
 ---
 layout: post
 language: en
-title: Data Factory
+title: Data factory
 tag: ["Bachelor thesis", "Diploma thesis"]
 category: projects-ideas
 ---
 
-Some form of data processing is a common task in almost any computer-related activity.
-For example, a machine learning project may employ a pipeline/workflow, to extract data, transform data and train a model.
-Implementation of the pipeline can be simple in the production environment.
-However, during the development phase, many different pipelines may need to be tested.
-Management and execution of those pipelines can be a tedious task.
-The objective is to make this task easier.
+Data processing is a common task in almost any computer-related activity.
+For example, data scientists employ data pipelines, also called workflows, to prepare data from machine learning methods.
+Scientists routinely process and analyze data with various levels of automation.
+Data pipeline can be simple as running a bash script or as complex as running distributed streaming processing.
+
+As science is an exploratory process, scientists often experiment with different data pipelines and datasets.
+As a result, many different pipelines need to be designed, implemented and tested. Management and execution of those pipelines is a labour-intensive process.
+
+Yet with proper toolset support, we should be able to make this process approachable and even increase the productivity of the researchers.
+
 
 <!-- more -->
 
-The idea is to create software (*Data Factory*), that would allow a user to define and compute so-called *data entries*.
-A simple *data entry* can be a local file or remote source of data. 
-In addition, a new data entry can be produced using arbitrary software from existing *data entry*. 
-Each *data entry* has accompanying metadata, called *definition*, that allows reproducible recomputation of a given *data entry*.
+The idea is to implement this toolset. 
+Yet, it is clear that the toolset can compose of multiple tools to address different requirements. 
 
-Given a list of *definitions*, the *Data factory* will compute the *data entries*.
-The concept is similar to the ETL, but they focus on different use cases.
-ETL focus on running mostly isolated pipelines on changing data.
-*Data Factory* should help during the development phase of machine learning methods. 
-Where a lot of pipelines is developed and tested on the same data.
-As such, the focus is on reproducibility,  integration, re-use, and sharing of existing data.
+We need to adopt or introduce data format standards and API definitions.
+The objective is to support modifiability, quality, and interoperability while adhering to open standards as closely as possible. At the same time, we should implement particular tools to build the toolset.
+
+Inspired by the science field, the toolset should support the notation of *data entries*.
+A *data entry* can be a local or remote file.
+New *data entries* can be created using *data pipelines* from the existing ones.
+The toolset must allow users to easily create, manage, and execute *data pipelines* and *data entries* on a local machine, a remote machine, or using a cluster.
+
+From a certain perspective, the toolset is similar to ETL tools.
+The difference is in primary use cases.
+Unlike ETL, the new toolset should focus on rapid development and experimentation, reproducibility, adhering to open standards, and sharing not only *data pipelines* but also *data entries*.
+ 

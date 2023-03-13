@@ -6,30 +6,35 @@ tag: ["Bachelor thesis"]
 category: projects-ideas
 ---
 
-RDF, XML, JSON and many other formats represent hierarchical data; data in a tree/forest like structure.
+RDF, XML, JSON and many other formats represent hierarchical data.
+The hierarchical data are in a tree or forest-like structure.
 However, conversation/transformation between those formats is not always straightforward.
-While it is easy to convert data from CSV, XML, and JSON to RDF, the opposite way can be improved.
-The objective is to design and implement a language and processor that would allow for the extensible transformation of hierarchical data.
+
+To be precise, transformations, like CVS, XML, and JSON to RDF, are simple and well-supported.
+The same is not true for the opposite direction.
+A solution? 
+A language and processor designed for highly customizable and extensible transformation of hierarchical data.
+The objective is to design and implement this tool or its part.
 
 <!-- more -->
 
-A transformation (lifting) from CSV, JSON to RDF can be handled using [CSVW][csvw] or [JSON-LD][json-ld].
+A transformation (lifting) from CSV, JSON to RDF is handled using [CSVW] or [JSON-LD].
 When it comes to XML, there is XSLT.
-For JSON user can employ XSLT as well or one of the many [alternative solutions][alternative solutions], [JQ][jq]
-The transformation between several formats thus may require knowledge of languages and specifications.
+[JQ], or [alternative solutions], can be employed to facilitate JSON to JSON transformation.
+In general, the transformations between formats require specific knowledge of languages and libraries.
 
-In addition, many of the transformations provide functionality far beyond an ordinary use case, i.e. the tools are too powerful and complex.
-This creates a space for a new tool, that would focus on a unified data model, simplicity and extensibility.
+In addition, many transformation tools and languages provide functionality far beyond an ordinary use case, i.e. the tools are too powerful and complex.
+This creates a space for a new tool focusing on a unified data model, simplicity and extensibility.
 The main idea is that all the formats can be described as hierarchical.
-This abstraction would allow to defined unifying transformation language for a limited set of operations.
+With this abstraction, we can define unifying transformation language for a limited set of operations.
 The differences between the formats may then be addressed by utilizing different data models.
-For example, the difference between JSON and XML may be the existence of an artificial node *@attr* that would provide access to attributes.
+For example, the difference between JSON and XML may be the existence of an artificial node *@attribute* that would provide access to attributes.
 
-The project should build upon / extend the already existing implementation of [hierarchical data transformation][hdt].
+The project should build upon the existing implementation of [hierarchical data transformation].
 
 [json-ld]: <https://json-ld.org/>
 [csvw]: <https://www.w3.org/TR/tabular-data-primer/>
-[hdt]: <https://github.com/skodapetr/hierarchical-data-transformationsl>
+[hierarchical data transformation]: <https://github.com/skodapetr/hierarchical-data-transformations>
 [xslt-equivalent-for-json]: <https://stackoverflow.com/questions/1618038/xslt-equivalent-for-json>
 [jq]: <https://stedolan.github.io/jq/>
 [alternative solutions]: <https://stackoverflow.com/questions/1618038/xslt-equivalent-for-json>
