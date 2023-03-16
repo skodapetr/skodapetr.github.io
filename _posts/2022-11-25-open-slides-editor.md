@@ -2,7 +2,7 @@
 layout: post
 language: en
 title: "Open Slides Editor"
-tag: ["Bachelor thesis", "Under negotiation"]
+tag: ["Bachelor thesis", "Not available"]
 category: projects-ideas
 ---
 
