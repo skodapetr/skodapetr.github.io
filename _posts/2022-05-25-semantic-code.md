@@ -2,7 +2,7 @@
 layout: post
 language: en
 title: "Connecting documents"
-tag: ["Bachelor thesis"]
+tag: ["Bachelor thesis", "Not available"]
 category: projects-ideas
 ---
 
@@ -27,7 +27,7 @@ As a developer, I would love to be able to jump from code to relevant documentat
 
 As a developer or software engineer, I may be tasked with adding a new property to a domain object. 
 It would be great if I can easily list relevant code and documentation where a given domain object is used. 
-This would not only help me to carry out impact analysis, but also make it easier to change all the relevant documentation. 
+This would not only help me to carry out impact analysis; but also make it easier to change all the relevant documentation. 
 
 The main idea here is to connect the code with other documents like documentation, HTML forms, design documents, database schema definitions, etc...
 
