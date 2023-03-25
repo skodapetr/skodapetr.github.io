@@ -15,7 +15,7 @@ Hned na úvod je nutné předeslat, že jednotlivé kroky, jejich relevanci a ro
 Obecně není možné dát jednotný seznam, který by bylo možné vždy slepě následovat. 
 Na druhou stranu jsou některé základní kroky o jejichž shrnutí se pokusím ve zbytku tohoto příspěvku.
 
-Doporučuji, povinnost pro mé studenty, přečíst příspěvek o <a href="{% post_url 2022-03-05-závěrečné-práce.html %}">závěrečných pracích obecně</a> včetně detailů pro oba typy práce.
+Doporučuji, povinnost pro mé studenty, přečíst příspěvek o <a href="{% post_url 2022-03-05-závěrečné-práce %}">závěrečných pracích obecně</a> včetně detailů pro oba typy práce.
 Zatímco výše zmíněné příspěvky jsou spíše deklarativní, tedy říkají, jak by práce měla vypadat, tento příspěvek se soustředí více na to jak toho dosáhnout.
 
 ## Domluvil jsem si téma
