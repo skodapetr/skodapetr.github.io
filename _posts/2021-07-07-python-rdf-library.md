@@ -2,7 +2,7 @@
 layout: post
 language: en
 title: Python RDF library
-tag: ["Bachelor thesis"]
+tag: ["Bachelor thesis", "Not available"]
 category: projects-ideas
 ---
 
