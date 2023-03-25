@@ -5,9 +5,9 @@ title: Mám ročníkový projekt ... co teď?
 category: final-thesis
 ---
 
-Nalezení vhodného tématu a ochotného vedoucího je prvním krokem v ročníkovém projektu a případně bakalářské práci.
+Nalezení vhodného tématu a ochotného vedoucího je prvním krokem v ročníkovém projektu.
 Ačkoliv může být splnění předchozích dvou kroků skoro důvodem k oslavě, je třeba neusnout na vavřínech.
-Co by tedy měl student dělat dále?
+Jak tedy postupovat dále?
 
 <!-- more -->
 
@@ -18,17 +18,16 @@ Na druhou stranu jsou některé základní kroky o jejichž shrnutí se pokusím
 Doporučuji, povinnost pro mé studenty, přečíst příspěvek o <a href="{% post_url 2022-03-05-závěrečné-práce %}">závěrečných pracích obecně</a> včetně detailů pro oba typy práce.
 Zatímco výše zmíněné příspěvky jsou spíše deklarativní, tedy říkají, jak by práce měla vypadat, tento příspěvek se soustředí více na to jak toho dosáhnout.
 
-## Domluvil jsem si téma
-Pro zapsání tématu ročníkového projektu, je třeba tří věcí:
-* Název projektu
-* Krátký popis 
-* Odkaz na veřejný URL repozitář
+## Zápis do SIS
+Pro zapsání ročníkového projektu je třeba tří věcí:
+* název projektu
+* krátký popis - 3 až 5 vět
+* odkaz na git repozitář
 
-Tuto informaci je třeba poslat vašemu vedoucímu, ten může následně vyplnit potřebné údaje do SIS.
-Tyto údaje slouží pouze pro ročníkový projekt, nejedná se tedy o zadání bakalářské práce.
+Tyto informaci je třeba poslat vašemu vedoucímu, ten může následně vyplnit potřebné údaje do SIS.
+Údaje slouží pouze pro ročníkový projekt, nejedná se tedy o zadání bakalářské práce.
 Z toho důvodu si není třeba lámat s popiskem a názvem příliš hlavu. 
-Rozsah popisu by měl být 3-5 vět.
-Z hlediska obsahu by měl být dostatečný, aby si po jeho přečtení čtenáři bylo jasné, co zhruba budete dělat.
+Popis by měl být hlediska obsahu i rozsahu dostatečný, aby si po jeho přečtení čtenáři bylo jasné, co zhruba budete dělat.
 
 ## Textová část práce
 Dalším krokem je založení projektu pro text bakalářské práce, ano už teď na začátku.
