@@ -11,9 +11,12 @@ Jak tedy postupovat dále?
 
 <!-- more -->
 
+<p class="warning">Tento text platí pouze pro ročníkové projekty, na které bude navazovat bakalářská práce.</p>
+
 Hned na úvod je nutné předeslat, že jednotlivé kroky, jejich relevanci a rozsah je třeba vždy konzultovat s vedoucím práce.
-Obecně není možné dát jednotný seznam, který by bylo možné vždy slepě následovat. 
-Na druhou stranu jsou některé základní kroky o jejichž shrnutí se pokusím ve zbytku tohoto příspěvku.
+Obecně není možné dát jednotný seznam, který by bylo možné vždy slepě následovat.
+Základní instrukce jsou dostupné na stránkách [ročníkového projektu](https://www.ksi.mff.cuni.cz/teaching/nprg045-web/).
+Cílem toho příspěvku je tyto instrukce rozpracovat zejména s důrazem na první dny a týdny projektu.
 
 Doporučuji, povinnost pro mé studenty, přečíst příspěvek o <a href="{% post_url 2022-03-05-závěrečné-práce %}">závěrečných pracích obecně</a> včetně detailů pro oba typy práce.
 Zatímco výše zmíněné příspěvky jsou spíše deklarativní, tedy říkají, jak by práce měla vypadat, tento příspěvek se soustředí více na to jak toho dosáhnout.
@@ -68,8 +71,8 @@ Následně provedeme zadání jednotlivých frází do vyhledávačů/nástrojů
 Zběžným pohledem na obsah můžeme provést první filtraci a rozhodnout se o relevanci zdroje. 
 Relevantní zdroje je pak třeba detailně nastudovat.
 Do textu práce je třeba zanést:
-* trojice čas, dotaz, nástroj
-* kolik výsledků jsme prohlédli - například prvních 20
+* trojice: čas, dotaz, vyhledávač/nástroj
+* kolik výsledků jsme prohlédli - například prvních 17
 * kritéria filtrace
 * seznam nalezených/relevantních zdrojů
 

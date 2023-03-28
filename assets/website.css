@@ -2,3 +2,7 @@
 article .entry .post-detail-hide {
   display: none;
 }
+
+.warning {
+  color: var(--bs-warning)
+}
