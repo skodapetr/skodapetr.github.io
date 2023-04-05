@@ -2,7 +2,7 @@
 layout: post
 language: en
 title: "Vocabulary hub"
-tag: ["Bachelor thesis", "Diploma thesis", "Under negotiation"]
+tag: ["Bachelor thesis", "Diploma thesis"]
 category: projects-ideas
 ---
 
