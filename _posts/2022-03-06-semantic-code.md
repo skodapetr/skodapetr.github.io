@@ -17,7 +17,7 @@ We can leverage it to improve software interoperability and introduce semantics.
 
 Many developer tools support semantic technologies, yet most focus on a top-down approach.
 In this approach, the ontology at the top, designed by an ontology engineer, is the source of truth and defines the data model.
-It is only from this model a source code, or file schema can be generated.
+It is only from this model a source code or file schema can be generated.
 Should the semantic change, the model must be updated before the code.
 
 As a result, software developers must wait for overwhelmed engineers to analyze and implement any change to the model. 

@@ -25,3 +25,16 @@ There should be a way how to provide specialized visualisation based on the subj
 
 The RDF viewer should be implemented as a web-based application extensible with plugins.
 Optionally, the application may feature a backend to allow the processing of larger data.
+
+Plugins may support visualisation of vocabularies such as:
+- [SKOS](https://www.w3.org/TR/2009/NOTE-skos-primer-20090818/)
+- [OWL](https://www.w3.org/TR/owl2-overview/)
+- [DCTERMS](https://www.dublincore.org/specifications/dublin-core/dcmi-terms/)
+- [DCAT](https://www.w3.org/TR/2023/WD-vocab-dcat-3-20230307/)
+- [PROV](https://www.w3.org/TR/prov-o/)
+Additional specification can be found using [w3 search](https://www.w3.org/TR/).
+
+Each plugin may work separately or better collaborate with others to provide a unified view of the data at hand.
+
+Related notes:
+* We should be able to provide visualisation of an [invoice](https://wiki.vicepremier.gov.sk/pages/viewpage.action?pageId=101833175).

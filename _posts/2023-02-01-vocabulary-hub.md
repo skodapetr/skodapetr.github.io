@@ -35,4 +35,8 @@ The list below contains some additional ideas to consider when tackling this pro
   Overall the idea is to make it easy for users to find a vocabulary to employ.
 * The vocabulary hub should not be limited only to linked data vocabularies. 
   It should support conceptual/logical models of any schema.
-
+* Given source schema/vocabulary we should be able to align it to registered vocabularies.
+* Given source and target ontology we should be able to find mapping.
+* We can help user to find and create a new vocabulary from existing terms.
+  By doing so we can lower the entry barrier for adopting existing vocabularies in existing projects.
+  This example was motivated by [SSP pull request](https://github.com/datagov-cz/ssp/pull/628/files).
