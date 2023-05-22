@@ -40,3 +40,6 @@ The list below contains some additional ideas to consider when tackling this pro
 * We can help user to find and create a new vocabulary from existing terms.
   By doing so we can lower the entry barrier for adopting existing vocabularies in existing projects.
   This example was motivated by [SSP pull request](https://github.com/datagov-cz/ssp/pull/628/files).
+
+Related:
+- [Let’s talk about pods](https://ruben.verborgh.org/blog/2022/12/30/lets-talk-about-pods/)

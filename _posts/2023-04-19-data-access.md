@@ -25,3 +25,8 @@ As a next step, users can request data in different profiles.
 A profile defines data format and schema.
 
 The application should implement HTTP API compatible with [LDP specification](https://www.w3.org/TR/ldp/) to enhance interoperability.
+
+Related work:
+* [grlc](https://github.com/CLARIAH/grlc)
+  Provide REST API for SPARQL endpoint based on predefined SPARQL queries.
+* [Ontology Access Toolkit (OAK) is a Python](https://incatools.github.io/ontology-access-kit/introduction.html)

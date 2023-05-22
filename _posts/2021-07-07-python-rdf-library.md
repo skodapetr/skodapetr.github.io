@@ -23,6 +23,9 @@ The aim is to design and implement a library that would provide Python developer
 The library may provide event-based API (similar to [SAX] API) or some higher-level access after indexing the file.
 The library must be able to handle large RDF files and should have no dependencies.
 
+Related work:
+* [Ontology Access Toolkit (OAK) is a Python](https://incatools.github.io/ontology-access-kit/introduction.html)
+
 [Resource Description Framework]: <https://www.w3.org/RDF/>
 [Turtle]: <https://www.w3.org/TR/turtle/>
 [JSON-LD]: <https://json-ld.org/spec/latest/json-ld-rdf/>
