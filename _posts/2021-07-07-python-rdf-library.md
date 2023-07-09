@@ -21,7 +21,16 @@ Yet this is not developer friendly.
 
 The aim is to design and implement a library that would provide Python developers easy access to the RDF data. 
 The library may provide event-based API (similar to [SAX] API) or some higher-level access after indexing the file.
+When it comes to API design we should also consider compatibility with existing solutions like [rdflib].
+
 The library must be able to handle large RDF files and should have no dependencies.
+
+In addition the internal representation of the data is also for consideration. 
+We can:
+* represent RDF as a collection of tuples
+* represent RDF as a collection of objects, for each object we store predicates and value
+* build an index to allow for fast data access
+
 
 Related work:
 * [Ontology Access Toolkit (OAK) is a Python](https://incatools.github.io/ontology-access-kit/introduction.html)

@@ -29,6 +29,7 @@ Anyway, I would like to hint at a few ideas:
 
 This idea is not new, and there are existing solutions like:
 * [Linked Open Vocabularies (LOV)](https://lov.linkeddata.es/dataset/lov/)
+* [FAIRsharing](https://fairsharing.org/search?fairsharingRegistry=Standard)
 
 The list below contains some additional ideas to consider when tackling this project:
 * The vocabulary hub should allow for search using example data or example vocabulary, similar to the query by example.

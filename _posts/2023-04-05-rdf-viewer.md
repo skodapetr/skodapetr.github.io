@@ -36,5 +36,6 @@ Additional specification can be found using [w3 search](https://www.w3.org/TR/).
 
 Each plugin may work separately or better collaborate with others to provide a unified view of the data at hand.
 
-Related notes:
+Related resources:
 * We should be able to provide visualisation of an [invoice](https://wiki.vicepremier.gov.sk/pages/viewpage.action?pageId=101833175).
+* [Sig.ma](https://www.semanticscholar.org/paper/Sig.ma%3A-live-views-on-the-web-of-data-Tummarello-Cyganiak/42a003b88c1e3333c54dc5d67ddbd8d637122824)
