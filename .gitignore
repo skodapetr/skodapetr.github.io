@@ -1,3 +1,8 @@
+# All starting with dot, local files.
 .*
+
+# Generated sites.
 _site/
+
+# Generated lock files.
 *.lock
