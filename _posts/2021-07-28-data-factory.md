@@ -2,7 +2,7 @@
 layout: post
 language: en
 title: Data factory
-tag: ["Bachelor thesis", "Diploma thesis"]
+tag: ["Bachelor thesis", "Not available"]
 category: projects-ideas
 ---
 
@@ -15,7 +15,6 @@ As science is an exploratory process, scientists often experiment with different
 As a result, many different pipelines need to be designed, implemented and tested. Management and execution of those pipelines is a labour-intensive process.
 
 Yet with proper toolset support, we should be able to make this process approachable and even increase the productivity of the researchers.
-
 
 <!-- more -->
 

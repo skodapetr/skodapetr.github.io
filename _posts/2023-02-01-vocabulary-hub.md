@@ -2,7 +2,7 @@
 layout: post
 language: en
 title: "Vocabulary hub"
-tag: ["Bachelor thesis", "Diploma thesis"]
+tag: ["Bachelor thesis", "Diploma thesis", "Not available"]
 category: projects-ideas
 ---
 
@@ -22,23 +22,23 @@ Instead, we should focus on a bottom-up approach by proposing and implementing p
 In this project, we focus on sharing the vocabulary using a shared repository called vocabulary hub. 
 What vocabulary hub exactly is and how it could be used should be specified as a part of the project.
 Anyway, I would like to hint at a few ideas:
-* Users can store references to their vocabulary in the vocabulary hub.
-* Users can store their vocabulary in the vocabulary hub.
-* Users can utilize the vocabulary hub as a "proxy" for dereferencing vocabularies.
-* Users can search in stored vocabularies.
+- Users can store references to their vocabulary in the vocabulary hub.
+- Users can store their vocabulary in the vocabulary hub.
+- Users can utilize the vocabulary hub as a "proxy" for dereferencing vocabularies.
+- Users can search in stored vocabularies.
 
 This idea is not new, and there are existing solutions like:
-* [Linked Open Vocabularies (LOV)](https://lov.linkeddata.es/dataset/lov/)
-* [FAIRsharing](https://fairsharing.org/search?fairsharingRegistry=Standard)
+- [Linked Open Vocabularies (LOV)](https://lov.linkeddata.es/dataset/lov/)
+- [FAIRsharing](https://fairsharing.org/search?fairsharingRegistry=Standard)
 
 The list below contains some additional ideas to consider when tackling this project:
-* The vocabulary hub should allow for search using example data or example vocabulary, similar to the query by example.
+- The vocabulary hub should allow for search using example data or example vocabulary, similar to the query by example.
   Overall the idea is to make it easy for users to find a vocabulary to employ.
-* The vocabulary hub should not be limited only to linked data vocabularies. 
+- The vocabulary hub should not be limited only to linked data vocabularies. 
   It should support conceptual/logical models of any schema.
-* Given source schema/vocabulary we should be able to align it to registered vocabularies.
-* Given source and target ontology we should be able to find mapping.
-* We can help user to find and create a new vocabulary from existing terms.
+- Given source schema/vocabulary we should be able to align it to registered vocabularies.
+- Given source and target ontology we should be able to find mapping.
+- We can help user to find and create a new vocabulary from existing terms.
   By doing so we can lower the entry barrier for adopting existing vocabularies in existing projects.
   This example was motivated by [SSP pull request](https://github.com/datagov-cz/ssp/pull/628/files).
 

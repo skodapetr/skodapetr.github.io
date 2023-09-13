@@ -33,14 +33,14 @@ With proper design, users can be forced into making better slides without even k
 
 In addition, modern slides should be connected and open.
 Users should be able to:
-* Share slides
-* Manage multiple versions
-* Re-use slides
-* Compile new presentations from existing slides
-* Connect slides to other data sources
-* Query the slides to find or transform the content
-* Save presentations online using a custom instance or [Solid] POD
-* Save presentations offline
+- Share slides
+- Manage multiple versions
+- Re-use slides
+- Compile new presentations from existing slides
+- Connect slides to other data sources
+- Query the slides to find or transform the content
+- Save presentations online using a custom instance or [Solid] POD
+- Save presentations offline
 
 The list above is only a suggestion.
 We should compile the final list after an extensive analysis.

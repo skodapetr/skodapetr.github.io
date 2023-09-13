@@ -27,13 +27,13 @@ The library must be able to handle large RDF files and should have no dependenci
 
 In addition the internal representation of the data is also for consideration. 
 We can:
-* represent RDF as a collection of tuples
-* represent RDF as a collection of objects, for each object we store predicates and value
-* build an index to allow for fast data access
+- represent RDF as a collection of tuples
+- represent RDF as a collection of objects, for each object we store predicates and value
+- build an index to allow for fast data access
 
 
 Related work:
-* [Ontology Access Toolkit (OAK) is a Python](https://incatools.github.io/ontology-access-kit/introduction.html)
+- [Ontology Access Toolkit (OAK) is a Python](https://incatools.github.io/ontology-access-kit/introduction.html)
 
 [Resource Description Framework]: <https://www.w3.org/RDF/>
 [Turtle]: <https://www.w3.org/TR/turtle/>
