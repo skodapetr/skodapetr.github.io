@@ -1,7 +1,7 @@
 ---
 layout: post
 language: en
-title: "Schema visualisation"
+title: "Schema visualisation / editor"
 tag: ["Bachelor thesis"]
 category: projects-ideas
 ---
@@ -12,6 +12,10 @@ Well, I've tried and I was unable to find, as of 2023, any suitable online tool 
 We can try to change this together.
 
 <!-- more -->
+
+Notes:
+- In addition to visualisation user should be able to edit the schema. <br/>
+  Export options to different schemas (JSON Schema, RDFS, ...) can be limited.
 
 This post is a [stub](https://simple.wikipedia.org/wiki/Wikipedia:Stub).
 I may add more information later.
