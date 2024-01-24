@@ -2,7 +2,7 @@
 layout: post
 language: en
 title: "Schema visualisation / editor"
-tag: ["Bachelor thesis"]
+tag: ["Bachelor thesis", "Master thesis"]
 category: projects-ideas
 ---
 There are many ways how to define a data schema: JSON Schema, RDFS, or code.
@@ -16,6 +16,8 @@ We can try to change this together.
 Notes:
 - In addition to visualisation user should be able to edit the schema. <br/>
   Export options to different schemas (JSON Schema, RDFS, ...) can be limited.
+
+This topic can be expanded to Master thesis by allowing schema evolution.
 
 This post is a [stub](https://simple.wikipedia.org/wiki/Wikipedia:Stub).
 I may add more information later.

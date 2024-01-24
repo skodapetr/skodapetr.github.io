@@ -1,3 +1,16 @@
+- title: 'Knowledge graphs for the life sciences: Recent developments, challenges and opportunities'
+  doi: '10.4230/TGDK.1.1.5'
+  year: 2023
+  type: 'journal'
+  journal: 'Transactions on Graph Data and Knowledge (TGDK)'
+  created: '2024-01-01'
+- title: 'Atlas: A Toolset for Efficient Model-Driven Data Exchange in Data Spaces'
+  doi: '10.1109/MODELS-C59198.2023.00009'
+  type: 'conference'
+  year: 2023
+  created: '2024-01-01'
+  conference: 'Model Driven Engineering Languages and Systems Companion (MODELS-C)'
+  core: 'A' # 	CORE2023
 - title: 'Open Dataset Discovery using Context-enhanced Similarity Search'
   doi: '10.1007/s10115-022-01751-z'
   year: 2022

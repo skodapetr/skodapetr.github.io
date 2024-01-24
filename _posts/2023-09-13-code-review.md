@@ -2,7 +2,7 @@
 layout: post
 language: en
 title: "Code review"
-tag: ["Bachelor thesis"]
+tag: ["Bachelor thesis", "Master thesis"]
 category: projects-ideas
 ---
 Integration of code reviews into development process can enhance code quality.
@@ -12,6 +12,8 @@ This can be sufficient for day to day operation, but it is not suitable for exte
 Objective is to create an online tool that would address this short coming.
 
 <!-- more -->
+
+This topic can be expanded to Master thesis by using LLM to review the code.
 
 This post is a [stub](https://simple.wikipedia.org/wiki/Wikipedia:Stub).
 I may add more information later.
