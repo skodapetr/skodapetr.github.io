@@ -2,7 +2,7 @@
 layout: post
 language: en
 title: "Schema visualisation / editor"
-tag: ["Bachelor thesis", "Master thesis"]
+tag: ["Bachelor thesis", "Master thesis", "Not available"]
 category: projects-ideas
 ---
 There are many ways how to define a data schema: JSON Schema, RDFS, or code.
