@@ -2,7 +2,7 @@
 layout: post
 language: en
 title: "User owned library"
-tag: ["Bachelor thesis", "Master thesis"]
+tag: ["Bachelor thesis", "Master thesis", "Not available"]
 category: projects-ideas
 ---
 Libraries are a great way to boost developer productivity, as they provide ready-to-use functionality and components.
