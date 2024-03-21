@@ -2,7 +2,7 @@
 layout: post
 language: en
 title: "RDF viewer"
-tag: ["Bachelor thesis"]
+tag: ["Bachelor thesis", "Not available"]
 category: projects-ideas
 ---
 
