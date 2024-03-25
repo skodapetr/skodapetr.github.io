@@ -2,7 +2,7 @@
 layout: post
 language: en
 title: "Request driven data access"
-tag: ["Bachelor thesis", "Diploma thesis"]
+tag: ["Bachelor thesis", "Diploma thesis", "Not available"]
 category: projects-ideas
 ---
 The aim is to make data available in multiple representations as requested by the user.
