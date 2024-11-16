@@ -2,14 +2,13 @@
 import { getCollection } from "astro:content";
 import Layout from "../layouts/BaseLayout.astro";
 import FormattedDate from "../components/FormattedDate.astro";
-import { SITE_DESCRIPTION } from "../consts";
 
 const posts = (await getCollection("post")).reverse();
 ---
 <Layout
 	language="en"
 	title="Škoda Petr"
-	description={SITE_DESCRIPTION}
+	description="List of all my posts."
 	className="container"
 >
 	<p>
@@ -17,7 +16,8 @@ const posts = (await getCollection("post")).reverse();
 		Please keep in mind that some of them may not be relevant anymore.
 	</p>
 	<div>
-		<span class="danger">Disclaimer:</span> <a href="./disclaimer" class="no-underline">There is no quality control.</a>
+		<b>Disclaimer:</b>
+		<a href="./disclaimer" class="no-underline danger">There is no quality control.</a>
 	</div>
 	<section>
 		<ul class="list-none p-0">

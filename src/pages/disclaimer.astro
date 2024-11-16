@@ -1,14 +1,13 @@
 ---
 import { getCollection } from "astro:content";
 import Layout from "../layouts/BaseLayout.astro";
-import { SITE_DESCRIPTION } from "../consts";
 
 const posts = (await getCollection("post")).reverse();
 ---
 <Layout
 	language="en"
 	title="Škoda Petr"
-	description={SITE_DESCRIPTION}
+	description="There is no quality controll for this website."
 	className="container"
 >
   <h1>Disclaimer</h1>
