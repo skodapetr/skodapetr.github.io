@@ -1,0 +1,27 @@
+---
+import Head from "../components/Head.astro";
+import Header from "../components/Header.astro";
+import Footer from "../components/Footer.astro";
+
+export interface Props {
+	language: string;
+	title: string;
+	description: string;
+	className?: string;
+}
+
+const { language, title, description, className } = Astro.props;
+---
+<!doctype html>
+<html lang={language}>
+	<head>
+		<Head title={title} description={description} />
+	</head>
+	<body class="roboto-light">
+		<Header />
+		<main class:list={className}>
+			<slot />
+		</main>
+		<Footer />
+	</body>
+</html>

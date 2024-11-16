@@ -1,8 +1,9 @@
-# All starting with dot, local files.
+# All starting with dot.
 .*
 
-# Generated sites.
-_site/
+# Generated and downloaded files.
+dist/
+node_modules/
 
-# Generated lock files.
-*.lock
+# Project files.
+*.code-workspace

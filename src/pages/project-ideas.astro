@@ -1,0 +1,48 @@
+---
+import Layout from "../layouts/BaseLayout.astro";
+import { SITE_DESCRIPTION } from "../consts";
+---
+<Layout
+  language="en"
+  title="Project ideas"
+  description={SITE_DESCRIPTION}
+  className="container"
+>
+  <h1>Projects ideas</h1>
+  <p>
+    This site hosts a list of project ideas suitable for a bachelor's or master's thesis.
+    Feel free to contact me should you find any of them interesting.
+  </p>
+
+  <p class="danger">
+    As of now, I've almost reached the limit of students for a bachelor thesis.
+    As a result, I am likely to turn you down when it comes to supervising a bachelor thesis.
+  </p>
+
+  <p>
+    While the bachelor's thesis can be research or implementation-based, the master's thesis is expected to be research-based.
+    In other words, the author of the master's thesis should deal with higher risk connected with exploring the unknown.
+    With that said, it is still possible to have an implementation-based master thesis.
+    I suggested the expected type using tags attached to each entry.
+  </p>
+  <p>
+    If you are not sure what a bachelor's thesis looks like, feel free to read my notes on <a href="./bachelor-thesis/" target="_blank">bachelor thesis</a>.
+  </p>
+  <p>
+    I do my best to keep the list up to date.
+    For some topics, there is space for multiple theses.
+    As a result, more than one student can work on a thesis inspired by the same idea.
+    The "Under&nbsp;negotiation" tag means that I've been contacted by a student who expressed interest in the given topic.
+    As a result the topic, or its part, may become unavailable to other students.
+  </p>
+
+  <article class="card my-2">
+    <h4 class="title m-0 mb-1" style="color: var(--link-color);">
+      These are not the droids you're looking for ...
+    </h4>
+    <div>
+      If you do not find the above topics interesting, or there are not topics, you can pitch me yours.
+      Be aware that I prefer my topics, therefore, make sure your topic and pitch is a good one.
+    </div>
+  </article>
+</Layout>

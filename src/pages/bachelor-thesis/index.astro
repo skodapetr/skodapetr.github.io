@@ -1,0 +1,29 @@
+---
+import Layout from "../../layouts/BaseLayout.astro";
+import { SITE_DESCRIPTION } from "../../consts";
+---
+<Layout
+  language="en"
+  title="Bachelor thesis"
+  description={SITE_DESCRIPTION}
+  className="container"
+>
+  <h1>Bachelor thesis</h1>
+  <p>
+    <b>Disclaimer</b>:
+    <span class="danger">This is not an oficial guideline!</span>
+  </p>
+  <p>
+    Information on this and related pages is designated for my students.
+    In addition, rules and recommendations should not be applied globally without considering a particular thesis.
+    Ask your supervisor for more information or advice.
+  </p>
+  <p>d
+    From my point of view, there are two types of thesis <a href="./implementation-type">implementation</a> and <a href="./research-type">research</a>.
+    The difference is mostly in the amount of risk and uncertainty the author is expected to deal with.
+    With that said, most theses exist somewhere in between.
+  </p>
+  <p>
+    Regardless of the type, the thesis is most likely going to consist of two parts a <a href="./software">software</a> and a <a href="./text">text</a>.
+  </p>
+</Layout>

@@ -1,0 +1,34 @@
+---
+import { getCollection } from "astro:content";
+import Layout from "../layouts/BaseLayout.astro";
+import { SITE_DESCRIPTION } from "../consts";
+
+const posts = (await getCollection("post")).reverse();
+---
+<Layout
+	language="en"
+	title="Škoda Petr"
+	description={SITE_DESCRIPTION}
+	className="container"
+>
+  <h1>Disclaimer</h1>
+	<p>
+		There is no quality control for most of the content not only on this site, but in the whole blog / repository.
+	</p>
+  <p>
+    In the best case scenario I have used a spell checker and eyeballed the content once before publishing it.
+    As a result, there are probably grammar mistakes and a lot of typos all round.
+  </p>
+	<p>
+    Yet, perhaps this is intentional, in order to show you that you do not need C2 or C1 in order to write.
+    At the end of the day, you may hardly become a good writer without writing.
+    And I probably do not need to explain the importance of ability to express yourself using a language.
+  </p>
+  <p>
+    There is plethora of high quality blogs, and articles.
+    Nevertheless, perhaps what we need is also the opposite end of the spectrum.
+    The lower quality ones, where we can see the errors and mistakes.
+    Perhaps the lower quality help somebody adjust their expectation.
+    Perhaps after reading a bit, you find yourself thinking you can do better and perhaps, you decide to give it a try ... 🙏
+  </p>
+</Layout>
