@@ -1,0 +1,42 @@
+---
+import type { FrontMatter } from "../data-model";
+import { prepareTags } from "../utilities/front-matter";
+import FormattedDate from "./FormattedDate.astro";
+
+interface Props {
+  post: {
+    slug: string;
+    data: FrontMatter;
+  };
+}
+
+const post = Astro.props.post;
+---
+
+<article class="card">
+  <div class="flex flex-row">
+    <h4 class="title m-0 mb-1">
+      <a href={`/post/${post.slug}/`} class="no-underline">
+        {post.data.title}
+      </a>
+    </h4>
+    <div class="mx-auto"></div>
+    <div class="date">
+      <FormattedDate value={post.data.published} />
+    </div>
+  </div>
+  {
+    post.data.tags === undefined || post.data.tags.length === 0 ? null : (
+      <div class="flex flex-row gap-1 mb-1">
+        {prepareTags(post.data).map(({ label }) => (
+          <div class="bg rounded-md py-1 px-2 text-sm shadow-sm">{label}</div>
+        ))}
+      </div>
+    )
+  }
+  {
+    post.data.description === undefined ? null : (
+      <div class="mb-0" set:html={post.data.description} />
+    )
+  }
+</article>

@@ -1,5 +1,15 @@
 ---
+import { getCollection } from "astro:content";
 import Layout from "../layouts/BaseLayout.astro";
+import PostItem from "../components/PostItem.astro";
+import { isAvailableProject } from "../data-model";
+
+const posts = (await getCollection("post"))
+  .reverse()
+  .filter(item => {
+    const tags: string[] = item.data.tags ?? [];
+    return isAvailableProject(tags);
+  });
 ---
 <Layout
   language="en"
@@ -31,17 +41,25 @@ import Layout from "../layouts/BaseLayout.astro";
     I do my best to keep the list up to date.
     For some topics, there is space for multiple theses.
     As a result, more than one student can work on a thesis inspired by the same idea.
-    The "Under&nbsp;negotiation" tag means that I've been contacted by a student who expressed interest in the given topic.
-    As a result the topic, or its part, may become unavailable to other students.
+    The list does not reflect negotiation with a students.
+    Thus, some project listed bellow may not be available.
   </p>
-
-  <article class="card my-2">
-    <h4 class="title m-0 mb-1" style="color: var(--link-color);">
-      These are not the droids you're looking for ...
-    </h4>
-    <div>
-      If you do not find the above topics interesting, or there are not topics, you can pitch me yours.
-      Be aware that I prefer my topics, therefore, make sure your topic and pitch is a good one.
-    </div>
-  </article>
+  <ul class="list-none p-0">
+    {posts.map((post) => (
+      <li>
+        <PostItem post={post} />
+      </li>
+    ))}
+    <li>
+      <article class="card my-2">
+        <h4 class="title m-0 mb-1" style="color: var(--link-color);">
+          These are not the droids you're looking for ...
+        </h4>
+        <div>
+          If you do not find the above topics interesting, or there are not topics, you can pitch me yours.
+          Be aware that I prefer my topics, therefore, make sure your topic and pitch is a good one.
+        </div>
+      </article>
+    </li>
+  </ul>
 </Layout>
