@@ -8,7 +8,7 @@ Warning: <span class="danger">This is work in progress.</span>
 
 The idea of conference posters is to provide a place and time-dense way to present contributions.
 Ok, there is actually more to this, but we are fine with this simplification.
-A poster session may take place in a hallway, conference room, or all the way up to the stadium-sized hall with doznes of posters.
+A poster session may take place in a hallway, conference room, or all the way up to the stadium-sized hall with dozens of posters.
 Just see, as of the time of writing, the linked article [Designing conference posters](https://colinpurrington.com/tips/poster-design/).
 
 During the conference poster sessions, you would hang your poster and then stand by it ready to answer questions and chat with anyone interested.
