@@ -2,7 +2,7 @@
 title: "Data access"
 description: "The aim is to make data available in multiple representations as requested by the user."
 published: "2023-04-19"
-tags: ["Bachelor thesis", "Not available"]
+tags: ["bachelor-thesis"]
 ---
 The aim is to make data available in multiple representations as requested by the user.
 
@@ -27,3 +27,9 @@ The application should implement HTTP API compatible with [LDP specification](ht
 Related work:
 * [grlc](https://github.com/CLARIAH/grlc) : Provide REST API for SPARQL endpoint based on predefined SPARQL queries.
 * [Ontology Access Toolkit (OAK) is a Python](https://incatools.github.io/ontology-access-kit/introduction.html)
+
+----
+
+*Update*: 13.9.2025:
+
+This idea is being implemented in the [request driven data access repository](https://github.com/thematycer/RequestDrivenDataAccess).

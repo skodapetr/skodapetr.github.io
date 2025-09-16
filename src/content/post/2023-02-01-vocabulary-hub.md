@@ -1,14 +1,14 @@
 ---
 title: "Vocabulary hub"
 description: "One of the core principles of linked data is to employ vocabularies to describe data in a machine-readable way.
-By doing so, data producers can significantly enhance data usability and interoperability.
-Findable, Interoperable, Accessible, and Reusable, or FAIR in short, vocabularies are enablers of the aforementioned.
-However, many vocabularies are not published in an easy-to-consume way.
-As a result, data publishers often resort to the design of their new proprietary vocabulary.
-While feasible, this approach decreases the value we would get from reuse and hinders data interoperability.
-The objective of this project is to tackle those issues."
+  By doing so, data producers can significantly enhance data usability and interoperability.
+  Findable, Interoperable, Accessible, and Reusable, or FAIR in short, vocabularies are enablers of the aforementioned.
+  However, many vocabularies are not published in an easy-to-consume way.
+  As a result, data publishers often resort to the design of their new proprietary vocabulary.
+  While feasible, this approach decreases the value we would get from reuse and hinders data interoperability.
+  The objective of this project is to tackle those issues."
 published: "2023-02-01"
-tags: ["Project idea"]
+tags: ["project-idea"]
 ---
 
 One of the core principles of linked data is to employ vocabularies to describe data in a machine-readable way.

@@ -1,11 +1,11 @@
 ---
 title: "Open Slides Editor"
 description: "We all may need to give a presentation at some point in time.
-Many presenters rely on slides as a cornerstone of their presentations.
-Those slides are created in software like PowerPoint and Google Slides, ...
-If you, like me, feel that there should be a better tool, you may consider reading the rest of this post."
+  Many presenters rely on slides as a cornerstone of their presentations.
+  Those slides are created in software like PowerPoint and Google Slides, ...
+  If you, like me, feel that there should be a better tool, you may consider reading the rest of this post."
 published: "2022-11-25"
-tags: ["Bachelor thesis", "Not available"]
+tags: ["bachelor-thesis", "available"]
 ---
 
 We all may need to give a presentation at some point in time.
@@ -45,6 +45,27 @@ Users should be able to:
 The list above is only a suggestion.
 We should compile the final list after an extensive analysis.
 The objective is clear, analyze, design and implement a tool to support the slides-as-code approach.
+
+---
+
+*Update*: 13.9.2025:
+
+An implementation was created in bachelor thesis [Open Slides Editor]() available [online](https://olcorolcor.github.io/OpenPresentationsForEducation/).
+The thesis contains very good analysis and related work section.
+There the author identifies [Marp](https://marp.app/) as a solution with a similar approach.
+The application allows user to utilize lanes, images, metadata tags and export to Reveal.js.
+
+---
+
+*Next iteration*:
+
+- Explore [Slidev](https://github.com/slidevjs/slidev) as a new related work.
+- Consider ability to use Markdown files as the source of truth.
+  The motivation is to provide as open serialization format as possible.
+- Enable conversion to and from RDF, to enable SPARQL based query and slides modification.
+- Check PowerPoint presentation format.
+- Provide better options for the export.
+- Provide multi-screen editor to see slides content as well as a preview.
 
 [reveal.js]: <https://revealjs.com/>
 [slides]: <https://slides.com/>

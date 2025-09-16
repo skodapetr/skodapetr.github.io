@@ -1,10 +1,10 @@
 ---
 title: "Data factory"
 description: "Resource Description Framework (RDF) is a standard data model.
-As RDF becomes widespread, more and more data are available in one of the RDF data formats.
-Yet no Python library would allow for the processing of larger RDF data files."
+  As RDF becomes widespread, more and more data are available in one of the RDF data formats.
+  Yet no Python library would allow for the processing of larger RDF data files."
 published: "2021-07-28"
-tags: ["Bachelor thesis", "Not available"]
+tags: ["bachelor-thesis", "available"]
 ---
 
 Data processing is a common task in almost any computer-related activity.
@@ -31,3 +31,17 @@ The toolset must allow users to easily create, manage, and execute *data pipelin
 From a certain perspective, the toolset is similar to ETL tools.
 The difference is in primary use cases.
 Unlike ETL, the new toolset should focus on rapid development and experimentation, reproducibility, adhering to open standards, and sharing not only *data pipelines* but also *data entries*.
+
+---
+
+*Update*: 13.9.2025:
+
+The first version was implemented as a bachelor thesis with [source code available](https://github.com/YArzumanyan/data-factory).
+The solution demonstrated use of different vocabularies and the overall architecture design.
+
+---
+
+*Next iteration*:
+
+What is missing is the integration with external resources, for example reading data from [National Open Data Catalog](https://data.gov.cz/).
+

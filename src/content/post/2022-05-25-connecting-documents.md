@@ -1,14 +1,14 @@
 ---
 title: "Connecting documents"
 description: "Honestly, I do not enjoy writing documentation.
-By documentation, I do not mean comments in source code.
-I am talking about external documentation, API specification, data model, user documentation, database schema documentation, etc...
-<br/><br/>
-Yet frankly, even more, tedious and labour-intensive than writing the documentation is keeping it up to date.
-The reason is there is no connection between to code to the documentation.
-As a result, we manually synchronize multiple documents. "
+  By documentation, I do not mean comments in source code.
+  I am talking about external documentation, API specification, data model, user documentation, database schema documentation, etc...
+  <br/><br/>
+  Yet frankly, even more, tedious and labour-intensive than writing the documentation is keeping it up to date.
+  The reason is there is no connection between to code to the documentation.
+  As a result, we manually synchronize multiple documents. "
 published: "2022-05-25"
-tags: ["Bachelor thesis", "Not available"]
+tags: ["bachelor-thesis", "active"]
 ---
 
 Honestly, I do not enjoy writing documentation.
@@ -58,4 +58,19 @@ Using an IDE a developer can navigate to the document.
 In addition, should the class or the document change, the developer is informed that connected documents should change as well.
 By doing so it should be easier to maintain the documentation.
 
-This is part of [Semantic code](../2022-03-06-semantic-code) project.
+---
+
+*Update*: 13.9.2025:
+
+PoC implementation was undertaken in bachelor thesis [Linking software artifacts](https://dspace.cuni.cz/handle/20.500.11956/200560).
+What is missing is better architecture and support for annotation consumption.
+
+---
+
+*Next iteration*:
+
+- Focus more on software visualisation and search of annotations, it is an orthogonal information we add to the software.
+- Provide a way, VSCode plugin, to provide and visualize additional information for the annotations.
+  This information may be stored in a project knowledge file.
+- Implement GH actions to extract annotations and build an index.
+- Explore VSCode build-in support for custom shortcuts and [Contextive VSCode extension](https://github.com/dev-cycles/contextive) instead of lsa-helper plugin

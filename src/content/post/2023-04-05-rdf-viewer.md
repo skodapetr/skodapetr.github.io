@@ -1,10 +1,10 @@
 ---
 title: "RDF viewer"
 description: "Linked data is five start data format, with promises of semantics and interoperability.
-Yet viewing, the basic operation, is not living up to the promise.
-The objective is to improve this situation and try to address not only linked data but RDF in general."
+  Yet viewing, the basic operation, is not living up to the promise.
+  The objective is to improve this situation and try to address not only linked data but RDF in general."
 published: "2023-04-05"
-tags: ["Bachelor thesis", "Not available"]
+tags: ["bachelor-thesis"]
 ---
 Linked data is five start data format, with promises of semantics and interoperability.
 Yet viewing, the basic operation, is not living up to the promise.
@@ -37,3 +37,9 @@ Each plugin may work separately or better collaborate with others to provide a u
 Related resources:
 * We should be able to provide visualisation of an [invoice](https://wiki.vicepremier.gov.sk/pages/viewpage.action?pageId=101833175).
 * [Sig.ma](https://www.semanticscholar.org/paper/Sig.ma%3A-live-views-on-the-web-of-data-Tummarello-Cyganiak/42a003b88c1e3333c54dc5d67ddbd8d637122824)
+
+---
+
+*Update*: 13.9.2025:
+
+This idea is being implemented in the [rdf-viewer repository](https://github.com/adamrer/rdf-viewer).

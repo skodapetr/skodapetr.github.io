@@ -1,13 +1,13 @@
 ---
 title: "Semantic code"
 description: "Semantic web, semantic data - the common objective is to attach meaning to the data and increase interoperability.
-Tools like vocabularies, ontologies, and query languages, are employed to support the above-mentioned goals.
-Yet while all the tools aim to add meaning to data, none is the source of true meaning.
-<br/><br/>
-Source code is the source of truth.
-We can leverage it to improve software interoperability and introduce semantics."
+  Tools like vocabularies, ontologies, and query languages, are employed to support the above-mentioned goals.
+  Yet while all the tools aim to add meaning to data, none is the source of true meaning.
+  <br/><br/>
+  Source code is the source of truth.
+  We can leverage it to improve software interoperability and introduce semantics."
 published: "2023-04-19"
-tags: ["Project idea"]
+tags: ["project-idea", "available"]
 ---
 
 Semantic web, semantic data - the common objective is to attach meaning to the data and increase interoperability.
@@ -45,8 +45,5 @@ None of the ideas here is new.
 The main difference is a shift in ontology ownership and source of truth.
 The ontology should be owned by the whole team not only ontology engineers.
 We should recognize that the source of truth is the code, not the ontology.
-
-This post does not represent a particular topic but rather a general project idea that should be implemented piece by piece from the bottom up.
-Particular projects for this idea may be posted separately.
 
 [Resource Description Framework]: <https://www.w3.org/RDF/>

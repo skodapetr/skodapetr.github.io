@@ -1,10 +1,11 @@
 ---
 title: "Python RDF library"
 description: "Resource Description Framework (RDF) is a standard data model.
-As RDF becomes widespread, more and more data are available in one of the RDF data formats.
-Yet no Python library would allow for the processing of larger RDF data files."
+  As RDF becomes widespread, more and more data are available in one of the RDF data formats.
+  Yet no Python library would allow for the processing of larger RDF data files."
 published: "2021-07-07"
-tags: ["Bachelor thesis", "Not available"]
+tags: ["bachelor-thesis", "available"]
+thesis: ["https://is.cuni.cz/studium/dipl_st/index.php?do=main&doo=detail&did=250704"]
 ---
 
 [Resource Description Framework] (RDF) is a standard data model.
@@ -30,7 +31,6 @@ We can:
 - represent RDF as a collection of tuples
 - represent RDF as a collection of objects, for each object we store predicates and value
 - build an index to allow for fast data access
-
 
 Related work:
 - [Ontology Access Toolkit (OAK) is a Python](https://incatools.github.io/ontology-access-kit/introduction.html)
