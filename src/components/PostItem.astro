@@ -8,6 +8,7 @@ interface Props {
     slug: string;
     data: FrontMatter;
   };
+  renderDate: boolean,
 }
 
 const post = Astro.props.post;
@@ -20,10 +21,12 @@ const post = Astro.props.post;
         {post.data.title}
       </a>
     </h4>
-    <div class="mx-auto"></div>
-    <div class="date">
-      <FormattedDate value={post.data.published} />
-    </div>
+    {Astro.props.renderDate ? (
+      <div class="mx-auto"></div>
+      <div class="date">
+        <FormattedDate value={post.data.published} />
+      </div>
+    ) : null}
   </div>
   {
     post.data.tags === undefined || post.data.tags.length === 0 ? null : (

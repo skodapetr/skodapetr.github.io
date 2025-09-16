@@ -23,7 +23,7 @@ const posts = (await getCollection("post")).reverse();
 		<ul class="list-none p-0">
 			{posts.map((post) => (
 				<li>
-					<PostItem post={post} />
+					<PostItem post={post} renderDate={true}/>
 				</li>
 			))}
 		</ul>

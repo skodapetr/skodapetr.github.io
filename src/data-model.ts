@@ -23,13 +23,13 @@ export interface FrontMatter {
   theses: string[] | undefined;
 
   /**
-   * If true the project is not available for students.
+   * If true the project is available for students.
    */
-  isUnavailable: boolean | undefined;
+  isAvailable: boolean | undefined;
 
 }
 
-export const TAG_NOT_AVAILABLE = "not-available";
+export const TAG_AVAILABLE = "available";
 
 export const TAG_BACHELOR_THESIS = "bachelor-thesis";
 
@@ -41,8 +41,8 @@ const TAGS: Record<string, Tag> = {
   [TAG_BACHELOR_THESIS]: {
     label: "Bachelor thesis",
   },
-  [TAG_NOT_AVAILABLE]: {
-    label: "Not available",
+  [TAG_AVAILABLE]: {
+    label: "Available",
   },
   [TAG_PROJECT_IDEA]: {
     label: "Project idea",
@@ -53,7 +53,7 @@ const TAGS: Record<string, Tag> = {
 };
 
 export function isAvailableProject(identifiers: string[]): boolean {
-  return !identifiers.includes(TAG_NOT_AVAILABLE) && isProject(identifiers);
+  return identifiers.includes(TAG_AVAILABLE) && isProject(identifiers);
 }
 
 export function isProject(identifiers: string[]): boolean {
