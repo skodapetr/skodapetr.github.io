@@ -10,6 +10,9 @@ const posts = (await getCollection("post"))
     const tags: string[] = item.data.tags ?? [];
     return isAvailableProject(tags);
   });
+
+  const freeSportAvailable = false;
+
 ---
 <Layout
   language="en"
@@ -18,16 +21,15 @@ const posts = (await getCollection("post"))
   className="container"
 >
   <h1>Projects ideas</h1>
+  { freeSportAvailable ? null :
+  <p class="danger">
+    As of now, I've almost reached the limit of students for a bachelor thesis.
+    As a result, I am likely to turn you down when it comes to supervising a bachelor thesis.
+  </p> }
   <p>
     This site hosts a list of project ideas suitable for a bachelor's or master's thesis.
     Feel free to contact me should you find any of them interesting.
   </p>
-
-  <!-- <p class="danger">
-    As of now, I've almost reached the limit of students for a bachelor thesis.
-    As a result, I am likely to turn you down when it comes to supervising a bachelor thesis.
-  </p> -->
-
   <p>
     While the bachelor's thesis can be research or implementation-based, the master's thesis is expected to be research-based.
     In other words, the author of the master's thesis should deal with higher risk connected with exploring the unknown and solver a (real) problem.

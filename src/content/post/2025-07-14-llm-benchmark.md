@@ -2,7 +2,7 @@
 title: "LLM benchmark"
 description: "The objective is to test what data representation is best for given task and LLM."
 published: "2025-07-14"
-tags: ["master-thesis", "available"]
+tags: ["master-thesis"]
 ---
 
 With the advent of [MCP](https://modelcontextprotocol.io/) and argentic workflows, LLMs need to be able to process and produce data.
@@ -29,3 +29,6 @@ For example, should we also include schema information in the prompt?
 Part of the experiment can also deal with the sentiment and relationship with the LLM.
 Based on the closing paragraph of [Vibe Coding as a Coding Veteran](https://levelup.gitconnected.com/vibe-coding-as-a-coding-veteran-cd370fe2be50) where AI reflects on the vibe-coding experience.
 Would the performance of the LLM change when it feels respected?
+
+Related work:
+- [Measuring the performance of our models on real-world tasks](https://openai.com/index/gdpval/)

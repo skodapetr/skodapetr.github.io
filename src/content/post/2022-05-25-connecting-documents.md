@@ -8,7 +8,7 @@ description: "Honestly, I do not enjoy writing documentation.
   The reason is there is no connection between to code to the documentation.
   As a result, we manually synchronize multiple documents. "
 published: "2022-05-25"
-tags: ["bachelor-thesis", "active"]
+tags: ["bachelor-thesis", "available"]
 ---
 
 Honestly, I do not enjoy writing documentation.

@@ -5,7 +5,7 @@ description: "We all may need to give a presentation at some point in time.
   Those slides are created in software like PowerPoint and Google Slides, ...
   If you, like me, feel that there should be a better tool, you may consider reading the rest of this post."
 published: "2022-11-25"
-tags: ["bachelor-thesis", "available"]
+tags: ["bachelor-thesis"]
 ---
 
 We all may need to give a presentation at some point in time.

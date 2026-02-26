@@ -1,8 +1,16 @@
+# https://portal.core.edu.au/conf-ranks/
+- title: 'PrankWeb 4: a modular web server for protein–ligand binding site prediction and downstream analysis'
+  doi: 10.1093/nar/gkaf421
+  year: 2025
+  created: '2025-05-19'
+  type: 'journal'
+  journal: 'Nucleic Acids Research'
 - title: 'Enhancing Domain Modeling with Pre-trained Large Language Models: An Automated Assistant for Domain Modelers'
   doi: '10.1007/978-3-031-75872-0_13'
   type: 'conference'
   year: 2024
   created: '2024-10-26'
+  conference: 'Conceptual Modeling (ER 2024)'
 - title: 'Towards Authoring of Vocabularies and Application Profiles using Dataspecer'
   doi:
   type: 'demo'
@@ -229,7 +237,7 @@
 - title: 'Molpher: a software framework for systematic chemical space exploration'
   doi: '10.1186/1758-2946-6-7'
   year: 2014
-  type: 'jouranl'
+  type: 'journal'
   journal: 'Journal of Cheminformatics'
 - title: 'Chemical space visualization using ViFrame'
   doi: '10.1109/ICIS.2013.6607895'

@@ -4,7 +4,7 @@ description: "Resource Description Framework (RDF) is a standard data model.
   As RDF becomes widespread, more and more data are available in one of the RDF data formats.
   Yet no Python library would allow for the processing of larger RDF data files."
 published: "2021-07-07"
-tags: ["bachelor-thesis", "available"]
+tags: ["bachelor-thesis"]
 thesis: ["https://is.cuni.cz/studium/dipl_st/index.php?do=main&doo=detail&did=250704"]
 ---
 
