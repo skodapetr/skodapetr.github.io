@@ -21,7 +21,7 @@ Notes:
 
 ---
 
-*Update*: 13.9.2025:
+2025-09-13 *Update*:
 
 An attempt to implement a schema editor was made in bachelor thesis.
 The result is available online as [code-data-wiz](xmon3r.github.io/code-data-wiz/), [source code](https://github.com/XMON3R/code-data-wiz).
@@ -35,17 +35,9 @@ The architecture and experience can be used as a foundation for next iteration.
 
 ---
 
-*Next iteration*:
+2025-09-13 *Next iteration*:
 
 - Provide initial example values.
 - Improve error handling.
 - Expand support of languages.
 - Focus more on definition and work with the universal model.
-
----
-
-This post is a [stub](https://simple.wikipedia.org/wiki/Wikipedia:Stub).
-I may add more information later.
-Please feel free to reach out to me to discuss this topic further.
-
-

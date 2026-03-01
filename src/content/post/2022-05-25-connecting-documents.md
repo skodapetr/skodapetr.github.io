@@ -60,14 +60,14 @@ By doing so it should be easier to maintain the documentation.
 
 ---
 
-*Update*: 13.9.2025:
+2025-09-13 *Update*:
 
 PoC implementation was undertaken in bachelor thesis [Linking software artifacts](https://dspace.cuni.cz/handle/20.500.11956/200560).
 What is missing is better architecture and support for annotation consumption.
 
 ---
 
-*Next iteration*:
+2025-09-13 *Next iteration*:
 
 - Focus more on software visualisation and search of annotations, it is an orthogonal information we add to the software.
 - Provide a way, VSCode plugin, to provide and visualize additional information for the annotations.

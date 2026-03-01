@@ -2,7 +2,7 @@
 title: "Linked Data Platform implementation"
 description: "A Java-based implementation of W3C recommendation."
 published: "2025-03-14"
-tags: ["bachelor-thesis", "available"]
+tags: ["bachelor-thesis"]
 ---
 
 The main ideas is to implement Linked Data Platform (LDP) according to [W3C Linked Data Platform Recommendation](https://www.w3.org/TR/ldp/).

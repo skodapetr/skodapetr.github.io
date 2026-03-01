@@ -4,7 +4,7 @@ description: "Resource Description Framework (RDF) is a standard data model.
   As RDF becomes widespread, more and more data are available in one of the RDF data formats.
   Yet no Python library would allow for the processing of larger RDF data files."
 published: "2021-07-07"
-tags: ["bachelor-thesis"]
+tags: ["bachelor-thesis", "available"]
 thesis: ["https://is.cuni.cz/studium/dipl_st/index.php?do=main&doo=detail&did=250704"]
 ---
 
@@ -45,3 +45,13 @@ Related work:
 [Raptor]: <http://librdf.org/raptor/>
 [Redland]: <http://librdf.org/bindings/>
 [SAX]: <https://docs.oracle.com/javase/tutorial/jaxp/sax/parsing.html>
+
+---
+
+2026-03-01 *Update*:
+
+Functionality:
+- Streaming parsers: Turtle, N-Triples, NQuads, TriG, [HDT](https://www.rdfhdt.org/), JSON-LD
+- SAX-like interface
+- RDF Object Mapping using annotations or simple loaders
+- Read data with inference

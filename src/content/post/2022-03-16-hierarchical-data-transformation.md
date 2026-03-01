@@ -32,7 +32,7 @@ The project should build upon the existing implementation of [hierarchical data 
 
 ---
 
-*Update*: 13.9.2025:
+2025-09-13 *Update*:
 
 An attempt to solve this has been made in a bachelor thesis [Hierarchical data transformation](https://dspace.cuni.cz/handle/20.500.11956/193054).
 The author propose an unified representation for hierarchical data called Ur.
@@ -94,14 +94,13 @@ Example of a shift operation:
 
 ---
 
-*Next iteration*:
+2025-09-13 *Next iteration*:
 
 - Simplify Ur and remove unnecessary arrays.
   We need to also include RDF conversion.
 - Instead of transformation focus on navigation.
   Output can be produced as side-effect of navigation.
   For example, we can open an array on visiting an object and then emit value for each property.
-
 
 [json-ld]: <https://json-ld.org/>
 [csvw]: <https://www.w3.org/TR/tabular-data-primer/>

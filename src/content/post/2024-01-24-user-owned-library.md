@@ -28,14 +28,14 @@ Notes:
 
 ---
 
-*Update*: 13.9.2025:
+2025-09-13 *Update*:
 
 [oul](https://github.com/basvas-jkj/oul) has been created in a bachelor thesis as an implementation of this idea.
 The implementation focused on the client application and explore what a component may, what CLI API to use, and how to store information about components.
 
 ---
 
-*Next iteration*:
+2025-09-13 *Next iteration*:
 
 - Re-implement CLI using Python for simplicity.
 - Add support of language specific "initializers" to for example, rename packages or update paths.

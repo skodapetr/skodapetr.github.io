@@ -48,7 +48,7 @@ The objective is clear, analyze, design and implement a tool to support the slid
 
 ---
 
-*Update*: 13.9.2025:
+2025-09-13 *Update*:
 
 An implementation was created in bachelor thesis [Open Slides Editor]() available [online](https://olcorolcor.github.io/OpenPresentationsForEducation/).
 The thesis contains very good analysis and related work section.
@@ -57,7 +57,7 @@ The application allows user to utilize lanes, images, metadata tags and export t
 
 ---
 
-*Next iteration*:
+2025-09-13 *Next iteration*:
 
 - Explore [Slidev](https://github.com/slidevjs/slidev) as a new related work.
 - Consider ability to use Markdown files as the source of truth.

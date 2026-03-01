@@ -40,6 +40,6 @@ Related resources:
 
 ---
 
-*Update*: 13.9.2025:
+2025-09-13 *Update*:
 
 This idea is being implemented in the [rdf-viewer repository](https://github.com/adamrer/rdf-viewer).

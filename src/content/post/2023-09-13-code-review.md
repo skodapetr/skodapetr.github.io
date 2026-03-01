@@ -23,6 +23,6 @@ Feel free to reach out to me to discuss this topic further.
 
 ---
 
-*Update*: 13.9.2025:
+2025-09-13 *Update*:
 
 Implementation of this idea is underway in [code comments bachelor thesis repository](https://github.com/S1lence-z/bachelor-thesis).

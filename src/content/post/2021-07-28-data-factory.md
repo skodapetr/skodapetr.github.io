@@ -34,7 +34,7 @@ Unlike ETL, the new toolset should focus on rapid development and experimentatio
 
 ---
 
-*Update*: 13.9.2025:
+2025-09-13 *Update*:
 
 The first version was implemented as a bachelor thesis with [source code available](https://github.com/YArzumanyan/data-factory).
 The solution demonstrated use of different vocabularies and the overall architecture design.
@@ -44,4 +44,3 @@ The solution demonstrated use of different vocabularies and the overall architec
 *Next iteration*:
 
 What is missing is the integration with external resources, for example reading data from [National Open Data Catalog](https://data.gov.cz/).
-
