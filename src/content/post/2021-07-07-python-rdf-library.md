@@ -48,10 +48,15 @@ Related work:
 
 ---
 
-2026-03-01 *Update*:
+2026-03-06 *Update*:
 
 Functionality:
 - Streaming parsers: Turtle, N-Triples, NQuads, TriG, [HDT](https://www.rdfhdt.org/), JSON-LD
+- Pretty print writer and syntax highlight service (HTTP)
 - SAX-like interface
 - RDF Object Mapping using annotations or simple loaders
 - Read data with inference
+
+Related work:
+- [dlite](https://github.com/SINTEF/dlite)
+- [OO-LD](https://github.com/OO-LD/)
