@@ -73,7 +73,14 @@ Try to provide answers to following questions:
 - Is there a need for your solution, if so why?
 - What inspiration can you draw from the existing solution?
 
+Finding and processing all the related work is a time consuming task and that is ok.
+It may be reasonable idea to employ an AI assistant.
+Besides classical chat-based AI interface you can use tools link [NotebookLM](https://notebooklm.google.com/).
+If you are not sure hot to start there [Czech tutorial](https://share-md.com/view?id=786f7a03-63bd-4f30-9265-90220007e470).
+*Note*: Keep in mind that you should clearly declare which AI tools and how have you utilized.
+
 ## Analysis
+
 In this part, you should analyze the issue/opportunity you are about to address.
 You need to think about users, stakeholders, functionality, and other systems.
 The objective is to figure out "WHAT" should be implemented.
