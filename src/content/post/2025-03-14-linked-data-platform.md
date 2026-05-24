@@ -20,3 +20,9 @@ The implementation should:
   For example for resource A, I would be able to define derived resource B that I will share.
   Resource A can be RDF representation of my calendar, resource B can be created using SPARQL query that remove/hide some information.
 - Provide simple client-side application to browse the resources.
+
+---
+
+2026-05-24 *Update*:
+
+Implementation of this idea is underway in with code to be available at [GitHub repository](https://github.com/LukasBerka/bachelor-thesis-project).
