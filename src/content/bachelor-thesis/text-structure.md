@@ -31,6 +31,9 @@ Clearly state what are the objective of the thesis.
 Once objectives are defined explain the structure of the rest of the text.
 In the ideal case, you should forward the reference following chapter to also introduce the text outline.
 
+As the last section of the introduction you should declare use of AI.
+You should generate the declaration using [Prohlášení o užití generativní AI](https://ai.cuni.cz/AI-80.html) / [Declaration of AI usage](https://ai.cuni.cz/AIEN-39.html) tool.
+
 ## Domain introduction
 
 This chapter is optional.
